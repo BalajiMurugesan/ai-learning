@@ -1,0 +1,3 @@
+2026-10-17 04:04:53.204 [info] Log level: Info
+2026-10-17 04:16:30.039 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for BalajiMurugesan/https---github.com-BalajiMurugesan-ai-learning/b2dfd7448d925afbf640369fe4c7a223acc420f6: TypeError: Cannot read properties of null (reading 'author')
+2026-10-17 04:33:02.349 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for BalajiMurugesan/https---github.com-BalajiMurugesan-ai-learning/58a6d5fa8991317ccde5026e57244b132ac34904: TypeError: Cannot read properties of null (reading 'author')
