@@ -1,0 +1,135 @@
+code-server (1.103.2, vocproxy-1-12.us-west-2.vocareum.com, server-distro)
+Jupyter Extension Version: 2025.7.0.
+Python Extension Version: 2025.12.0.
+Python Environment Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /voc/work
+Temp Storage folder ~/.local/share/code-server/User/globalStorage/ms-toolsai.jupyter/version-2025.7.0
+Workspace folder /voc/work
+04:57:15.045 [info] Telemetry level is off
+04:57:15.045 [info] Experiments are disabled, only manually opted experiments are active.
+05:21:01.116 [info] Starting Kernel (Python Path: /usr/bin/python, Unknown, 3.10.14) for '~/W2_package/demo v2/Week 2-3 Introduction to Asyncio.ipynb' (disableUI=false)
+05:21:01.643 [warn] Failed to get activated env vars for /usr/bin/python in 530ms
+05:21:01.649 [info] Process Execution: /usr/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+05:21:01.681 [info] Process Execution: /usr/bin/python -m pip list
+05:21:01.754 [warn] Failed to get activated env vars for /usr/bin/python in 626ms
+05:21:01.758 [info] Process Execution: /usr/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+05:21:01.760 [info] Process Execution: /usr/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v310cffbad900c760849ea02e3aab0819779b23ce7.json
+    > cwd: ~/W2_package/demo v2
+05:21:02.579 [info] Kernel successfully started
+05:21:02.587 [info] Process Execution: /usr/bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/pythonFiles/printJupyterDataDir.py
+05:21:03.744 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+05:21:07.289 [warn] Cell completed with errors [vu [Error]: object ChatCompletion can't be used in 'await' expression
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "object ChatCompletion can't be used in 'await' expression",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 5\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;66;03m# Await the main coroutine directly (used in Jupyter Notebooks or Colab \x1B[39;00m\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;66;03m# where an event loop is already running in the background)\x1B[39;00m\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;66;03m# Note: In a standalone .py script file, you would run this instead using await: \x1B[39;00m\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;66;03m# asyncio.run(main())\x1B[39;00m\n' +
+      '\x1B[0;32m----> 5\x1B[0m \x1B[38;5;28;01mawait\x1B[39;00m main()\n',
+    'Cell \x1B[0;32mIn[4], line 24\x1B[0m, in \x1B[0;36mmain\x1B[0;34m()\x1B[0m\n' +
+      '\x1B[1;32m     15\x1B[0m tasks \x1B[38;5;241m=\x1B[39m [\n' +
+      '\x1B[1;32m     16\x1B[0m     asyncio\x1B[38;5;241m.\x1B[39mcreate_task(ask_llm(prompt_id\x1B[38;5;241m=\x1B[39mi \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m1\x1B[39m, topic\x1B[38;5;241m=\x1B[39mtopic))\n' +
+      '\x1B[1;32m     17\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m i, topic \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(topics)\n' +
+      '\x1B[1;32m     18\x1B[0m ]\n' +
+      '\x1B[1;32m     20\x1B[0m \x1B[38;5;66;03m# asyncio.gather() unpacks task objects, executes them concurrently, \x1B[39;00m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[38;5;66;03m# and waits until all tasks complete before returning their aggregated results.\x1B[39;00m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[38;5;66;03m# When you place an asterisk in front of it (*tasks), Python unpacks the items \x1B[39;00m\n' +
+      '\x1B[1;32m     23\x1B[0m \x1B[38;5;66;03m# out of the list container and passes them as separate, individual positional arguments.\x1B[39;00m\n' +
+      '\x1B[0;32m---> 24\x1B[0m results \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mawait\x1B[39;00m asyncio\x1B[38;5;241m.\x1B[39mgather(\x1B[38;5;241m*\x1B[39mtasks)\n' +
+      '\x1B[1;32m     26\x1B[0m \x1B[38;5;66;03m# Calculate total duration for all concurrent requests\x1B[39;00m\n' +
+      '\x1B[1;32m     27\x1B[0m total_duration \x1B[38;5;241m=\x1B[39m time\x1B[38;5;241m.\x1B[39mtime() \x1B[38;5;241m-\x1B[39m total_start\n',
+    'Cell \x1B[0;32mIn[3], line 20\x1B[0m, in \x1B[0;36mask_llm\x1B[0;34m(prompt_id, topic)\x1B[0m\n' +
+      '\x1B[1;32m     15\x1B[0m start_time \x1B[38;5;241m=\x1B[39m time\x1B[38;5;241m.\x1B[39mtime()\n' +
+      '\x1B[1;32m     17\x1B[0m \x1B[38;5;66;03m# Non-blocking API call using the AsyncOpenAI client.\x1B[39;00m\n' +
+      "\x1B[1;32m     18\x1B[0m \x1B[38;5;66;03m# The 'await' keyword pauses execution of this specific coroutine, yielding control \x1B[39;00m\n" +
+      '\x1B[1;32m     19\x1B[0m \x1B[38;5;66;03m# back to the event loop so other pending tasks/requests can proceed concurrently.\x1B[39;00m\n' +
+      '\x1B[0;32m---> 20\x1B[0m response \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mawait\x1B[39;00m client\x1B[38;5;241m.\x1B[39mchat\x1B[38;5;241m.\x1B[39mcompletions\x1B[38;5;241m.\x1B[39mcreate(\n' +
+      '\x1B[1;32m     21\x1B[0m     model\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mgpt-4o-mini\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m     22\x1B[0m     messages\x1B[38;5;241m=\x1B[39m[\n' +
+      '\x1B[1;32m     23\x1B[0m         {\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msystem\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mYou are a helpful assistant. Keep your responses under 20 words.\x1B[39m\x1B[38;5;124m"\x1B[39m},\n' +
+      '\x1B[1;32m     24\x1B[0m         {\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124muser\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mGive me a fun fact about \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtopic\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m.\x1B[39m\x1B[38;5;124m"\x1B[39m}\n' +
+      '\x1B[1;32m     25\x1B[0m     ],\n' +
+      '\x1B[1;32m     26\x1B[0m     temperature\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m0.7\x1B[39m,\n' +
+      '\x1B[1;32m     27\x1B[0m )\n' +
+      '\x1B[1;32m     29\x1B[0m \x1B[38;5;66;03m# Calculate response round-trip time\x1B[39;00m\n' +
+      '\x1B[1;32m     30\x1B[0m duration \x1B[38;5;241m=\x1B[39m time\x1B[38;5;241m.\x1B[39mtime() \x1B[38;5;241m-\x1B[39m start_time\n',
+    "\x1B[0;31mTypeError\x1B[0m: object ChatCompletion can't be used in 'await' expression"
+  ]
+}
+05:21:07.291 [warn] Cancel all remaining cells due to cancellation or failure in execution
+06:20:39.466 [info] Starting Kernel (Python Path: /usr/bin/python, Unknown, 3.10.14) for '~/W2_package/demo v2/Week 2-4 End to End PipelineF.ipynb' (disableUI=false)
+06:20:39.997 [warn] Failed to get activated env vars for /usr/bin/python in 525ms
+06:20:40.001 [info] Process Execution: /usr/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:20:40.004 [info] Process Execution: /usr/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3b1536d32ad136eb3fd8a502797d9b92d39bb8ed3.json
+    > cwd: ~/W2_package/demo v2
+06:20:40.247 [warn] Failed to get activated env vars for /usr/bin/python in 541ms
+06:20:40.250 [info] Process Execution: /usr/bin/python -m pip list
+06:20:40.776 [info] Kernel successfully started
+06:20:41.802 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+06:25:32.760 [warn] Cell completed with errors [vu [Error]: No module named 'aiosqlite'
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'aiosqlite'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 12\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mdatetime\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m date  \x1B[38;5;66;03m# Provides a native Python calendar date object (YYYY-MM-DD), \x1B[39;00m\n' +
+      '\x1B[1;32m     11\x1B[0m                            \x1B[38;5;66;03m# used to enforce strict typing for transaction dates.\x1B[39;00m\n' +
+      '\x1B[0;32m---> 12\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01maiosqlite\x1B[39;00m     \x1B[38;5;66;03m# An asynchronous wrapper for SQLite3; \x1B[39;00m\n' +
+      '\x1B[1;32m     13\x1B[0m                      \x1B[38;5;66;03m# allows non-blocking database writes concurrently alongside async LLM calls.\x1B[39;00m\n' +
+      "\x1B[1;32m     14\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mopenai\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m AsyncOpenAI  \x1B[38;5;66;03m# The official asynchronous client for OpenAI's API, \x1B[39;00m\n",
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'aiosqlite'"
+  ]
+}
+06:25:57.128 [info] Restart requested ~/W2_package/demo v2/Week 2-4 End to End PipelineF.ipynb
+06:25:57.585 [warn] Failed to get activated env vars for /usr/bin/python in 451ms
+06:25:57.589 [info] Process Execution: /usr/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:25:57.591 [info] Process Execution: /usr/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3a3498d3b9a8d2505f29e2b1c3710bcbec6f0bff9.json
+    > cwd: ~/W2_package/demo v2
+06:25:58.262 [info] Restarted 652efedd-08b7-4fed-b19f-dc7ccdc5ce40
+06:26:06.685 [warn] Cell completed with errors [vu [Error]: No module named 'aiosqlite'
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'aiosqlite'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 12\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mdatetime\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m date  \x1B[38;5;66;03m# Provides a native Python calendar date object (YYYY-MM-DD), \x1B[39;00m\n' +
+      '\x1B[1;32m     11\x1B[0m                            \x1B[38;5;66;03m# used to enforce strict typing for transaction dates.\x1B[39;00m\n' +
+      '\x1B[0;32m---> 12\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01maiosqlite\x1B[39;00m     \x1B[38;5;66;03m# An asynchronous wrapper for SQLite3; \x1B[39;00m\n' +
+      '\x1B[1;32m     13\x1B[0m                      \x1B[38;5;66;03m# allows non-blocking database writes concurrently alongside async LLM calls.\x1B[39;00m\n' +
+      "\x1B[1;32m     14\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mopenai\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m AsyncOpenAI  \x1B[38;5;66;03m# The official asynchronous client for OpenAI's API, \x1B[39;00m\n",
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'aiosqlite'"
+  ]
+}
+06:27:32.243 [info] Restart requested ~/W2_package/demo v2/Week 2-4 End to End PipelineF.ipynb
+06:27:33.229 [warn] Failed to get activated env vars for /usr/bin/python in 981ms
+06:27:33.233 [info] Process Execution: /usr/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:27:33.236 [info] Process Execution: /usr/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v340b9941b5dcac308624455632d7336c8dba41a16.json
+    > cwd: ~/W2_package/demo v2
+06:27:33.898 [info] Restarted 652efedd-08b7-4fed-b19f-dc7ccdc5ce40
+07:45:33.538 [info] Dispose Kernel '~/W2_package/demo v2/Week 2-3 Introduction to Asyncio.ipynb' associated with '~/W2_package/demo v2/Week 2-3 Introduction to Asyncio.ipynb'
+07:45:33.542 [info] Dispose Kernel '~/W2_package/demo v2/Week 2-4 End to End PipelineF.ipynb' associated with '~/W2_package/demo v2/Week 2-4 End to End PipelineF.ipynb'
+07:45:33.577 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v340b9941b5dcac308624455632d7336c8dba41a16.json for pid 19381 [Canceled (FileSystemError): Canceled
+	at ms.e (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+	at Object.stat (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:16011)
+	at async ru.delete (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:236:16320)
+	at async /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:308:469] {
+  code: 'Unknown'
+}
+07:45:33.579 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v310cffbad900c760849ea02e3aab0819779b23ce7.json for pid 7485 [Canceled (FileSystemError): Canceled
+	at ms.e (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:18860)
+	at Object.stat (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:16011)
+	at async ru.delete (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:236:16320)
+	at async /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:308:469] {
+  code: 'Unknown'
+}

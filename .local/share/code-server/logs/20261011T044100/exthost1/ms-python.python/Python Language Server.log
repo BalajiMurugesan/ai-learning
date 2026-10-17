@@ -1,0 +1,13 @@
+2026-10-11 04:56:47.827 [info] semantic_tokens_range file:///voc/work/fake_llm.py 0:0-62:6
+2026-10-11 04:56:47.879 [info] semantic_tokens_full file:///voc/work/fake_llm.py 
+2026-10-11 04:56:48.465 [info] [Debug - 4:56:48 AM] no definitions found for name "question" of type 'statement' (166:8)
+2026-10-11 04:56:48.466 [info] [Debug - 4:56:48 AM] no definitions found for name "text" of type 'statement' (167:8)
+2026-10-11 04:56:48.470 [info] [Debug - 4:56:48 AM] no definitions found for name "cost_usd" of type 'statement' (168:8)
+2026-10-11 04:56:48.470 [info] [Debug - 4:56:48 AM] no matching semantic token for "__name__" of type 'statement' (172:3)
+2026-10-11 04:56:48.470 [info] [Debug - 4:56:48 AM] no definitions found for name "text" of type 'statement' (176:21)
+2026-10-11 04:56:48.470 [info] [Debug - 4:56:48 AM] no definitions found for name "text" of type 'statement' (177:21)
+2026-10-11 04:56:48.470 [info] [Debug - 4:56:48 AM] no definitions found for name "text" of type 'statement' (178:21)
+2026-10-11 04:56:48.474 [info] [Debug - 4:56:48 AM] multiple definitions found for name "text" of type 'statement' (182:26):
+ <Name full_name='fake_llm.Question.text', description='text: str'>
+<Name full_name='fake_llm.Question.text', description='text: str'>
+<Name full_name='fake_llm.Question.text', description='text: str'>

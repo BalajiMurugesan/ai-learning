@@ -1,0 +1,12 @@
+2026-10-12 15:24:58.795 [info] 
+
+
+
+
+2026-10-12 15:24:58.801 [info] Extension host agent started.
+2026-10-12 15:25:07.482 [info] [172.16.4.129][7acee9a7][ManagementConnection] New connection established.
+2026-10-12 15:25:11.117 [info] [172.16.4.129][3555b69e][ExtensionHostConnection] New connection established.
+2026-10-12 15:25:11.119 [info] [172.16.4.129][3555b69e][ExtensionHostConnection] <97> Launched Extension Host Process.
+2026-10-12 16:20:53.359 [info] [172.16.4.129][7acee9a7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-12 19:20:25.076 [info] [172.16.4.129][3555b69e][ExtensionHostConnection] <97> Extension Host Process exited with code: 0, signal: null.
+2026-10-12 19:20:55.112 [info] [172.16.4.129][7acee9a7][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.

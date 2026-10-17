@@ -1,0 +1,16 @@
+2026-10-11 04:57:17.921 [info] semantic_tokens_full file:///voc/work/fake_llm.py 
+2026-10-11 04:57:17.926 [info] semantic_tokens_range file:///voc/work/fake_llm.py 0:0-62:6
+2026-10-11 04:57:18.340 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "7": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-10-11 04:57:18.341 [info] [Error - 4:57:18 AM] Request textDocument/semanticTokens/range failed.
+2026-10-11 04:57:18.341 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-10-11 04:57:18.342 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "6": TypeError: cannot unpack non-iterable AccessPath object
+NoneType: None
+
+2026-10-11 04:57:18.342 [info] [Error - 4:57:18 AM] Request textDocument/semanticTokens/full failed.
+2026-10-11 04:57:18.342 [info]   Message: TypeError: cannot unpack non-iterable AccessPath object
+  Code: -32603 
+[object Object]

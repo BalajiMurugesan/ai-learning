@@ -1,0 +1,201 @@
+code-server (1.103.2, vocproxy-1-99.us-west-2.vocareum.com, server-distro)
+Jupyter Extension Version: 2025.7.0.
+Python Extension Version: 2025.12.0.
+Python Environment Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /voc/work
+Temp Storage folder ~/.local/share/code-server/User/globalStorage/ms-toolsai.jupyter/version-2025.7.0
+Workspace folder /voc/work
+05:10:21.516 [info] Telemetry level is off
+05:10:21.516 [info] Experiments are disabled, only manually opted experiments are active.
+05:26:46.364 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/W2_package/demo v2/Week 2-1 Introduction to Pydantic.ipynb' (disableUI=false)
+05:26:46.665 [warn] Failed to get activated env vars for /bin/python in 562ms
+05:26:46.670 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+05:26:46.693 [info] Process Execution: /bin/python -m pip list
+05:26:46.907 [warn] Failed to get activated env vars for /bin/python in 532ms
+05:26:46.910 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+05:26:46.913 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v37ca71e543d6abda7ffca9d15cb6eec0ad409de4b.json
+    > cwd: ~/W2_package/demo v2
+05:26:47.785 [info] Kernel successfully started
+05:26:48.293 [warn] Failed to get activated env vars for /bin/python in 504ms
+05:26:48.297 [info] Process Execution: /bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/pythonFiles/printJupyterDataDir.py
+05:26:48.784 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+05:34:06.916 [info] Restart requested ~/W2_package/demo v2/Week 2-1 Introduction to Pydantic.ipynb
+05:34:07.439 [warn] Failed to get activated env vars for /bin/python in 516ms
+05:34:07.443 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+05:34:07.445 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v337992abaade65a380c418a582e082ba89a80ef0d.json
+    > cwd: ~/W2_package/demo v2
+05:34:08.079 [info] Restarted 76cd64d4-737f-45e7-843d-6e0e7b2c1b11
+05:44:13.303 [warn] Cell completed with errors [vu [Error]: 1 validation error for User
+accountid
+  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/value_error
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'ValidationError',
+  evalue: '1 validation error for User\n' +
+    'accountid\n' +
+    "  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]\n" +
+    '    For further information visit https://errors.pydantic.dev/2.8/v/value_error',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValidationError\x1B[0m                           Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 12\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m valid_data \x1B[38;5;241m=\x1B[39m {\n' +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mname\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mRahul Gupta\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m      3\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124memail\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrahul@example.com\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m      8\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mphone\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m91 12345 54321\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      9\x1B[0m }\n' +
+      '\x1B[1;32m     11\x1B[0m \x1B[38;5;66;03m# Instantiate the model\x1B[39;00m\n' +
+      '\x1B[0;32m---> 12\x1B[0m user \x1B[38;5;241m=\x1B[39m \x1B[43mUser\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mvalid_data\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mValid User Created Successfully:\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m     14\x1B[0m \x1B[38;5;28mprint\x1B[39m(user)\n',
+    'File \x1B[0;32m/usr/local/lib/python3.10/dist-packages/pydantic/main.py:193\x1B[0m, in \x1B[0;36mBaseModel.__init__\x1B[0;34m(self, **data)\x1B[0m\n' +
+      '\x1B[1;32m    191\x1B[0m \x1B[38;5;66;03m# `__tracebackhide__` tells pytest and some other tools to omit this function from tracebacks\x1B[39;00m\n' +
+      '\x1B[1;32m    192\x1B[0m __tracebackhide__ \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[0;32m--> 193\x1B[0m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m__pydantic_validator__\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mvalidate_python\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mself_instance\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    '\x1B[0;31mValidationError\x1B[0m: 1 validation error for User\n' +
+      'accountid\n' +
+      "  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]\n" +
+      '    For further information visit https://errors.pydantic.dev/2.8/v/value_error'
+  ]
+}
+05:47:40.827 [warn] Cell completed with errors [vu [Error]: 1 validation error for User
+accountid
+  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/value_error
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'ValidationError',
+  evalue: '1 validation error for User\n' +
+    'accountid\n' +
+    "  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]\n" +
+    '    For further information visit https://errors.pydantic.dev/2.8/v/value_error',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValidationError\x1B[0m                           Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[11], line 12\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m valid_data \x1B[38;5;241m=\x1B[39m {\n' +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mname\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mRahul Gupta\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m      3\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124memail\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrahul@example.com\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m      8\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mphone\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m91 12345 54321\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      9\x1B[0m }\n' +
+      '\x1B[1;32m     11\x1B[0m \x1B[38;5;66;03m# Instantiate the model\x1B[39;00m\n' +
+      '\x1B[0;32m---> 12\x1B[0m user \x1B[38;5;241m=\x1B[39m \x1B[43mUser\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mvalid_data\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mValid User Created Successfully:\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m     14\x1B[0m \x1B[38;5;28mprint\x1B[39m(user)\n',
+    'File \x1B[0;32m/usr/local/lib/python3.10/dist-packages/pydantic/main.py:193\x1B[0m, in \x1B[0;36mBaseModel.__init__\x1B[0;34m(self, **data)\x1B[0m\n' +
+      '\x1B[1;32m    191\x1B[0m \x1B[38;5;66;03m# `__tracebackhide__` tells pytest and some other tools to omit this function from tracebacks\x1B[39;00m\n' +
+      '\x1B[1;32m    192\x1B[0m __tracebackhide__ \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[0;32m--> 193\x1B[0m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m__pydantic_validator__\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mvalidate_python\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mself_instance\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    '\x1B[0;31mValidationError\x1B[0m: 1 validation error for User\n' +
+      'accountid\n' +
+      "  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]\n" +
+      '    For further information visit https://errors.pydantic.dev/2.8/v/value_error'
+  ]
+}
+05:47:51.413 [warn] Cell completed with errors [vu [Error]: 2 validation errors for User
+email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='rahulexample.com', input_type=str]
+accountid
+  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/value_error
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'ValidationError',
+  evalue: '2 validation errors for User\n' +
+    'email\n' +
+    "  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='rahulexample.com', input_type=str]\n" +
+    'accountid\n' +
+    "  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]\n" +
+    '    For further information visit https://errors.pydantic.dev/2.8/v/value_error',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValidationError\x1B[0m                           Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[12], line 12\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m valid_data \x1B[38;5;241m=\x1B[39m {\n' +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mname\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mRahul Gupta\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m      3\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124memail\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrahulexample.com\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m      8\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mphone\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m91 12345 54321\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      9\x1B[0m }\n' +
+      '\x1B[1;32m     11\x1B[0m \x1B[38;5;66;03m# Instantiate the model\x1B[39;00m\n' +
+      '\x1B[0;32m---> 12\x1B[0m user \x1B[38;5;241m=\x1B[39m \x1B[43mUser\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mvalid_data\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mValid User Created Successfully:\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m     14\x1B[0m \x1B[38;5;28mprint\x1B[39m(user)\n',
+    'File \x1B[0;32m/usr/local/lib/python3.10/dist-packages/pydantic/main.py:193\x1B[0m, in \x1B[0;36mBaseModel.__init__\x1B[0;34m(self, **data)\x1B[0m\n' +
+      '\x1B[1;32m    191\x1B[0m \x1B[38;5;66;03m# `__tracebackhide__` tells pytest and some other tools to omit this function from tracebacks\x1B[39;00m\n' +
+      '\x1B[1;32m    192\x1B[0m __tracebackhide__ \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[0;32m--> 193\x1B[0m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m__pydantic_validator__\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mvalidate_python\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mself_instance\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    '\x1B[0;31mValidationError\x1B[0m: 2 validation errors for User\n' +
+      'email\n' +
+      "  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='rahulexample.com', input_type=str]\n" +
+      'accountid\n' +
+      "  Value error, Account ID must start with the prefix 'ACC-' [type=value_error, input_value='AC-98765', input_type=str]\n" +
+      '    For further information visit https://errors.pydantic.dev/2.8/v/value_error'
+  ]
+}
+06:59:25.321 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/W2_package/demo v2/Week 2-3 Introduction to Asyncio.ipynb' (disableUI=true)
+06:59:25.825 [warn] Failed to get activated env vars for /bin/python in 502ms
+06:59:25.830 [info] Process Execution: /bin/python -m pip list
+06:59:25.841 [warn] Failed to get activated env vars for /bin/python in 513ms
+06:59:25.846 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:59:25.850 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v391fdc07649b12ca372d5c28a23c27aaf1ced58e4.json
+    > cwd: ~/W2_package/demo v2
+06:59:26.599 [info] Kernel successfully started
+06:59:27.721 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+07:49:42.574 [warn] Cell completed with errors [vu [Error]: name 'OpenAI' is not defined
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'OpenAI' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[6], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m client \x1B[38;5;241m=\x1B[39m \x1B[43mOpenAI\x1B[49m()\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'OpenAI' is not defined"
+  ]
+}
+07:50:16.782 [warn] Cell completed with errors [vu [Error]: object ChatCompletion can't be used in 'await' expression
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "object ChatCompletion can't be used in 'await' expression",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[11], line 5\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;66;03m# Await the main coroutine directly (used in Jupyter Notebooks or Colab \x1B[39;00m\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;66;03m# where an event loop is already running in the background)\x1B[39;00m\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;66;03m# Note: In a standalone .py script file, you would run this instead using await: \x1B[39;00m\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;66;03m# asyncio.run(main())\x1B[39;00m\n' +
+      '\x1B[0;32m----> 5\x1B[0m \x1B[38;5;28;01mawait\x1B[39;00m main()\n',
+    'Cell \x1B[0;32mIn[10], line 24\x1B[0m, in \x1B[0;36mmain\x1B[0;34m()\x1B[0m\n' +
+      '\x1B[1;32m     15\x1B[0m tasks \x1B[38;5;241m=\x1B[39m [\n' +
+      '\x1B[1;32m     16\x1B[0m     asyncio\x1B[38;5;241m.\x1B[39mcreate_task(ask_llm(prompt_id\x1B[38;5;241m=\x1B[39mi \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m1\x1B[39m, topic\x1B[38;5;241m=\x1B[39mtopic))\n' +
+      '\x1B[1;32m     17\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m i, topic \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(topics)\n' +
+      '\x1B[1;32m     18\x1B[0m ]\n' +
+      '\x1B[1;32m     20\x1B[0m \x1B[38;5;66;03m# asyncio.gather() unpacks task objects, executes them concurrently, \x1B[39;00m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[38;5;66;03m# and waits until all tasks complete before returning their aggregated results.\x1B[39;00m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[38;5;66;03m# When you place an asterisk in front of it (*tasks), Python unpacks the items \x1B[39;00m\n' +
+      '\x1B[1;32m     23\x1B[0m \x1B[38;5;66;03m# out of the list container and passes them as separate, individual positional arguments.\x1B[39;00m\n' +
+      '\x1B[0;32m---> 24\x1B[0m results \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mawait\x1B[39;00m asyncio\x1B[38;5;241m.\x1B[39mgather(\x1B[38;5;241m*\x1B[39mtasks)\n' +
+      '\x1B[1;32m     26\x1B[0m \x1B[38;5;66;03m# Calculate total duration for all concurrent requests\x1B[39;00m\n' +
+      '\x1B[1;32m     27\x1B[0m total_duration \x1B[38;5;241m=\x1B[39m time\x1B[38;5;241m.\x1B[39mtime() \x1B[38;5;241m-\x1B[39m total_start\n',
+    'Cell \x1B[0;32mIn[9], line 20\x1B[0m, in \x1B[0;36mask_llm\x1B[0;34m(prompt_id, topic)\x1B[0m\n' +
+      '\x1B[1;32m     15\x1B[0m start_time \x1B[38;5;241m=\x1B[39m time\x1B[38;5;241m.\x1B[39mtime()\n' +
+      '\x1B[1;32m     17\x1B[0m \x1B[38;5;66;03m# Non-blocking API call using the AsyncOpenAI client.\x1B[39;00m\n' +
+      "\x1B[1;32m     18\x1B[0m \x1B[38;5;66;03m# The 'await' keyword pauses execution of this specific coroutine, yielding control \x1B[39;00m\n" +
+      '\x1B[1;32m     19\x1B[0m \x1B[38;5;66;03m# back to the event loop so other pending tasks/requests can proceed concurrently.\x1B[39;00m\n' +
+      '\x1B[0;32m---> 20\x1B[0m response \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mawait\x1B[39;00m client\x1B[38;5;241m.\x1B[39mchat\x1B[38;5;241m.\x1B[39mcompletions\x1B[38;5;241m.\x1B[39mcreate(\n' +
+      '\x1B[1;32m     21\x1B[0m     model\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mgpt-4o-mini\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m     22\x1B[0m     messages\x1B[38;5;241m=\x1B[39m[\n' +
+      '\x1B[1;32m     23\x1B[0m         {\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msystem\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mYou are a helpful assistant. Keep your responses under 20 words.\x1B[39m\x1B[38;5;124m"\x1B[39m},\n' +
+      '\x1B[1;32m     24\x1B[0m         {\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124muser\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mGive me a fun fact about \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtopic\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m.\x1B[39m\x1B[38;5;124m"\x1B[39m}\n' +
+      '\x1B[1;32m     25\x1B[0m     ],\n' +
+      '\x1B[1;32m     26\x1B[0m     temperature\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m0.7\x1B[39m,\n' +
+      '\x1B[1;32m     27\x1B[0m )\n' +
+      '\x1B[1;32m     29\x1B[0m \x1B[38;5;66;03m# Calculate response round-trip time\x1B[39;00m\n' +
+      '\x1B[1;32m     30\x1B[0m duration \x1B[38;5;241m=\x1B[39m time\x1B[38;5;241m.\x1B[39mtime() \x1B[38;5;241m-\x1B[39m start_time\n',
+    "\x1B[0;31mTypeError\x1B[0m: object ChatCompletion can't be used in 'await' expression"
+  ]
+}
