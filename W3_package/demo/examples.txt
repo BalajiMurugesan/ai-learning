@@ -1,0 +1,16 @@
+curl -X GET "http://localhost:8000/generate/get?query=What%20is%20FastAPI?"
+
+curl -X GET "http://localhost:8000/health"
+
+curl -X POST "http://localhost:8000/generate/post" \
+     -H "Content-Type: application/json" \
+     -d '{"query": "Explain async/await in Python."}'
+
+
+curl -N -X POST "http://localhost:8000/generate/post?stream=true" \
+     -H "Content-Type: application/json" \
+     -d '{"query": "Count from 1 to 5 slowly."}'
+
+curl -X POST "http://localhost:8000/generate/post" \
+     -H "Content-Type: application/json" \
+     -d '{"q": "This should fail validation"}'

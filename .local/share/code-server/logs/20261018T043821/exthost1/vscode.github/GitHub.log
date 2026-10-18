@@ -1,0 +1,3 @@
+2026-10-18 04:38:35.898 [info] Log level: Info
+2026-10-18 04:38:38.621 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-10-18 05:10:02.952 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for BalajiMurugesan/ai-learning: Error: No GitHub authentication session available.

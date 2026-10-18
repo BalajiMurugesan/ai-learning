@@ -9,3 +9,18 @@
 2026-10-17 05:00:44.062 [info] [172.16.11.193][0fa44387][ManagementConnection] New connection established.
 2026-10-17 05:00:47.153 [info] [172.16.11.193][9eea402d][ExtensionHostConnection] New connection established.
 2026-10-17 05:00:47.155 [info] [172.16.11.193][9eea402d][ExtensionHostConnection] <101> Launched Extension Host Process.
+2026-10-17 07:19:35.362 [info] [172.16.11.193][0fa44387][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-10-17 07:19:37.567 [info] [172.16.11.193][9eea402d][ExtensionHostConnection] <101> Extension Host Process exited with code: 0, signal: null.
+2026-10-17 07:19:40.651 [info] [172.16.11.193][713fc26e][ManagementConnection] New connection established.
+2026-10-17 07:19:45.011 [info] [172.16.11.193][f8b2aa29][ExtensionHostConnection] New connection established.
+2026-10-17 07:19:45.014 [info] [172.16.11.193][f8b2aa29][ExtensionHostConnection] <29354> Launched Extension Host Process.
+2026-10-17 07:20:11.028 [info] [172.16.11.193][713fc26e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-10-17 07:20:11.151 [info] [172.16.11.193][f8b2aa29][ExtensionHostConnection] <29354> Extension Host Process exited with code: 0, signal: null.
+2026-10-17 07:20:13.376 [info] [172.16.11.193][71f54b12][ManagementConnection] New connection established.
+2026-10-17 07:20:17.572 [info] [172.16.11.193][eb6dda4d][ExtensionHostConnection] New connection established.
+2026-10-17 07:20:17.576 [info] [172.16.11.193][eb6dda4d][ExtensionHostConnection] <29635> Launched Extension Host Process.
+2026-10-17 07:39:54.417 [info] [172.16.11.193][eb6dda4d][ExtensionHostConnection] The client has reconnected.
+2026-10-17 07:39:54.445 [info] [172.16.11.193][71f54b12][ManagementConnection] The client has reconnected.
+2026-10-17 07:39:57.519 [info] [172.16.11.193][71f54b12][ManagementConnection] The client has reconnected.
+2026-10-17 07:39:58.167 [info] [172.16.11.193][eb6dda4d][ExtensionHostConnection] The client has reconnected.
+2026-10-17 07:57:29.819 [info] [172.16.11.193][71f54b12][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

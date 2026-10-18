@@ -38,3 +38,7 @@
 2026-10-17 05:00:51.415 [info] Python interpreter path: /bin/python
 2026-10-17 05:00:53.296 [info] Starting Jedi language server for work.
 2026-10-17 05:00:55.628 [info] Discover tests for workspace name: work - uri: /voc/work/.local/share/code-server/User/settings.json
+2026-10-17 06:17:09.489 [info] Discover tests for workspace name: work - uri: /voc/work/W3_package/demo/main.py
+2026-10-17 06:17:10.990 [info] Discover tests for workspace name: work - uri: /voc/work/W3_package/demo/main.py
+2026-10-17 06:17:12.811 [info] Discover tests for workspace name: work - uri: /voc/work/W3_package/demo/main.py
+2026-10-17 06:17:14.129 [info] Discover tests for workspace name: work - uri: /voc/work/W3_package/demo/main.py

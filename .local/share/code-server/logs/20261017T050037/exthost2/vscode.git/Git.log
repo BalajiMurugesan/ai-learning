@@ -1,0 +1,36 @@
+2026-10-17 07:19:49.108 [info] [main] Log level: Info
+2026-10-17 07:19:49.108 [info] [main] Validating found git in: "git"
+2026-10-17 07:19:49.108 [info] [main] Using git "2.25.1" from "git"
+2026-10-17 07:19:49.112 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [6ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [6ms]
+2026-10-17 07:19:49.112 [info] [Model][openRepository] Opened repository (path): /voc/work
+2026-10-17 07:19:49.112 [info] [Model][openRepository] Opened repository (real path): /voc/work
+2026-10-17 07:19:49.112 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-17 07:19:49.112 [info] > git config --get commit.template [5ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [7ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-17 07:19:49.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/week-3-lab refs/remotes/week-3-lab [15ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [8ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-17 07:19:49.112 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [7ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [9ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [9ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [4ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-17 07:19:49.112 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-17 07:19:49.112 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-17 07:19:49.112 [info] > git status -z -uall [681ms]
+2026-10-17 07:19:49.112 [info] > git config --get commit.template [7ms]
+2026-10-17 07:19:49.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/week-3-lab refs/remotes/week-3-lab [15ms]
+2026-10-17 07:19:49.112 [info] > git config --get --local branch.week-3-lab.vscode-merge-base [5ms]
+2026-10-17 07:19:49.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/week-3-lab refs/remotes/week-3-lab [17ms]
+2026-10-17 07:19:49.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [11ms]
+2026-10-17 07:19:49.148 [info] > git merge-base refs/heads/week-3-lab refs/remotes/origin/week-3-lab [28ms]
+2026-10-17 07:19:49.192 [info] > git diff --name-status -z --diff-filter=ADMR 26cda431daa4ab51e7df034f74acce3730672dde...refs/remotes/origin/week-3-lab [42ms]
+2026-10-17 07:19:49.192 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [45ms]
+2026-10-17 07:19:49.223 [info] > git status -z -uall [78ms]
+2026-10-17 07:19:49.604 [info] > git check-ignore -v -z --stdin [8ms]

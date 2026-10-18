@@ -1,0 +1,15 @@
+2026-10-18 04:52:19.132 [info] semantic_tokens_full file:///voc/work/W3_package/demo/test_main.py 
+2026-10-18 04:52:19.192 [info] [Debug - 4:52:19 AM] no definitions found for name "module pytest" of type 'module' (1:7)
+2026-10-18 04:52:19.201 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4"
+
+2026-10-18 04:52:19.204 [info] semantic_tokens_range file:///voc/work/W3_package/demo/test_main.py 0:0-58:104
+2026-10-18 04:52:19.220 [info] [Debug - 4:52:19 AM] no definitions found for name "module pytest" of type 'module' (1:7)
+2026-10-18 04:52:19.268 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "3": _pickle.UnpicklingError: invalid load key, '"'.
+NoneType: None
+
+2026-10-18 04:52:19.269 [info] [Error - 4:52:19 AM] Request textDocument/semanticTokens/full failed.
+2026-10-18 04:52:19.272 [info]   Message: _pickle.UnpicklingError: invalid load key, '"'.
+  Code: -32603 
+[object Object]
+2026-10-18 04:52:45.068 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6"
+
