@@ -1,0 +1,23 @@
+2026-11-01 05:07:21.379 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-1-31.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-4%20Tool%20Calling%20with%20OpenAI.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:17
+2026-11-01 05:07:21.416 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-1-31.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-4%20Tool%20Calling%20with%20OpenAI.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:13
+2026-11-01 05:07:21.421 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-1-31.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-4%20Tool%20Calling%20with%20OpenAI.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-3:30
+2026-11-01 05:07:21.465 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "7": _pickle.UnpicklingError: invalid load key, '`'.
+NoneType: None
+
+2026-11-01 05:07:21.465 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-1-31.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-2%20Output%20Parsers.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-3:76
+2026-11-01 05:07:21.471 [info] [Error - 5:07:21 AM] Request textDocument/semanticTokens/range failed.
+2026-11-01 05:07:21.474 [info]   Message: _pickle.UnpicklingError: invalid load key, '`'.
+  Code: -32603 
+[object Object]
+2026-11-01 05:07:21.553 [info] [Debug - 5:07:21 AM] no definitions found for name "BaseModel" of type 'statement' (1:26)
+2026-11-01 05:07:21.554 [info] [Debug - 5:07:21 AM] no definitions found for name "Field" of type 'statement' (2:17)
+2026-11-01 05:07:21.557 [info] [Debug - 5:07:21 AM] no definitions found for name "description" of type 'statement' (2:23)
+2026-11-01 05:07:21.562 [info] [Debug - 5:07:21 AM] no definitions found for name "Field" of type 'statement' (3:17)
+2026-11-01 05:07:21.566 [info] [Debug - 5:07:21 AM] no definitions found for name "description" of type 'statement' (3:23)
+2026-11-01 05:07:21.570 [info] [Debug - 5:07:21 AM] no definitions found for name "Field" of type 'statement' (4:24)
+2026-11-01 05:07:21.574 [info] [Debug - 5:07:21 AM] no definitions found for name "description" of type 'statement' (4:30)
+2026-11-01 05:07:21.578 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-1-31.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-2%20Output%20Parsers.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-4:45
+2026-11-01 05:07:21.659 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-1-31.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-4%20Tool%20Calling%20with%20OpenAI.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-11-01 05:07:21.661 [info] [Debug - 5:07:21 AM] no definitions found for name "OpenAI" of type 'statement' (1:9)
+2026-11-01 05:07:21.664 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-1-31.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-4%20Tool%20Calling%20with%20OpenAI.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-11-01 05:07:21.668 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-1-31.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-4%20Tool%20Calling%20with%20OpenAI.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 

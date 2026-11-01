@@ -31,3 +31,18 @@
 	at async Lb.l (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
 2026-11-01 04:42:59.679 [warning] DiagnosticCollection with name 'eslint' does already exist.
 2026-11-01 04:46:31.230 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-11-01 04:53:04.568 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-11-01 04:55:41.610 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-11-01 05:07:12.992 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-11-01 05:07:14.085 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-01 05:07:14.086 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-01 05:07:14.090 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-01 05:07:14.683 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-11-01 05:07:14.954 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-11-01 05:07:16.014 [info] ExtensionService#_doActivateExtension ms-toolsai.tensorboard, startup: false, activationEvent: 'onLanguage:python'
+2026-11-01 05:07:21.478 [error] [ms-python.python] provider FAILED
+2026-11-01 05:07:21.478 [error] Error: _pickle.UnpicklingError: invalid load key, '`'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
