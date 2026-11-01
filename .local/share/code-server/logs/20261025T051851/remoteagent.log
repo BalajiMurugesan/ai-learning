@@ -1,0 +1,25 @@
+2026-10-25 05:18:51.494 [info] 
+
+
+
+
+2026-10-25 05:18:51.519 [info] Extension host agent started.
+2026-10-25 05:18:51.540 [info] Started initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+2026-10-25 05:18:51.568 [info] Completed initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+2026-10-25 05:18:58.324 [info] [172.16.9.129][c25dc5f9][ManagementConnection] New connection established.
+2026-10-25 05:19:01.306 [info] [172.16.9.129][a9a45407][ExtensionHostConnection] New connection established.
+2026-10-25 05:19:01.319 [info] [172.16.9.129][a9a45407][ExtensionHostConnection] <75> Launched Extension Host Process.
+2026-10-25 07:36:03.964 [info] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+2026-10-25 07:36:03.967 [info] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+2026-10-25 07:37:36.506 [info] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+2026-10-25 07:37:36.625 [info] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+2026-10-25 07:57:14.474 [info] [172.16.9.129][c25dc5f9][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-25 08:08:33.635 [info] [172.16.9.129][c25dc5f9][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-10-25 08:08:33.636 [info] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+2026-10-25 08:08:47.435 [info] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+2026-10-25 08:33:58.278 [info] [172.16.9.129][c25dc5f9][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-25 08:50:55.887 [info] [172.16.9.129][c25dc5f9][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-10-25 08:50:55.889 [info] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+2026-10-25 08:50:55.896 [info] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+2026-10-25 09:08:06.252 [info] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+2026-10-25 09:08:06.701 [info] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.

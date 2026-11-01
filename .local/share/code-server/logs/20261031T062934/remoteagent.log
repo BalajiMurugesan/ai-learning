@@ -1,0 +1,32 @@
+2026-10-31 06:29:34.471 [info] 
+
+
+
+
+2026-10-31 06:29:34.471 [info] Extension host agent started.
+2026-10-31 06:29:40.989 [info] [172.16.14.129][ecd48972][ManagementConnection] New connection established.
+2026-10-31 06:29:44.133 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] New connection established.
+2026-10-31 06:29:44.143 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] <72> Launched Extension Host Process.
+2026-10-31 07:34:29.966 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+2026-10-31 07:39:03.212 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+2026-10-31 07:39:03.509 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+2026-10-31 08:01:33.336 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+2026-10-31 08:01:33.617 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+2026-10-31 08:19:01.106 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-31 08:32:28.110 [info] [172.16.14.129][ecd48972][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-10-31 08:32:28.113 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+2026-10-31 08:32:30.622 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+2026-10-31 08:54:50.438 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-31 08:55:30.179 [info] [172.16.14.129][ecd48972][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-10-31 08:55:30.179 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+2026-10-31 08:55:31.458 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+2026-10-31 09:12:08.178 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+2026-10-31 09:12:53.235 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+2026-10-31 09:36:38.393 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-31 09:52:16.001 [info] [172.16.14.129][ecd48972][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-10-31 09:52:16.003 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+2026-10-31 09:52:16.301 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+2026-10-31 10:12:59.649 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-31 10:13:32.018 [info] [172.16.14.129][ecd48972][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-10-31 10:13:32.019 [info] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+2026-10-31 10:13:32.331 [info] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.

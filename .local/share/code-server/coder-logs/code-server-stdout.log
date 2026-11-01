@@ -1,0 +1,87 @@
+[2026-10-25T05:18:50.278Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-10-25T05:18:50.279Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-10-25T05:18:50.310Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-10-25T05:18:50.310Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-10-25T05:18:50.310Z] info    - Authentication is disabled
+[2026-10-25T05:18:50.310Z] info    - Not serving HTTPS
+[2026-10-25T05:18:50.310Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[05:18:51] 
+
+
+
+
+[05:18:51] Extension host agent started.
+[05:18:51] Started initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[05:18:51] Completed initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[05:18:58] [172.16.9.129][c25dc5f9][ManagementConnection] New connection established.
+[05:19:01] [172.16.9.129][a9a45407][ExtensionHostConnection] New connection established.
+[05:19:01] [172.16.9.129][a9a45407][ExtensionHostConnection] <75> Launched Extension Host Process.
+[07:36:03] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+[07:36:03] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+[07:37:36] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+[07:37:36] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+[07:57:14] [172.16.9.129][c25dc5f9][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:08:33] [172.16.9.129][c25dc5f9][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:08:33] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+[08:08:47] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+[08:33:58] [172.16.9.129][c25dc5f9][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:50:55] [172.16.9.129][c25dc5f9][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:50:55] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+[08:50:55] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+[09:08:06] [172.16.9.129][c25dc5f9][ManagementConnection] The client has reconnected.
+[09:08:06] [172.16.9.129][a9a45407][ExtensionHostConnection] The client has reconnected.
+[2026-10-31T06:29:32.819Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-10-31T06:29:32.821Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-10-31T06:29:32.857Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-10-31T06:29:32.857Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-10-31T06:29:32.857Z] info    - Authentication is disabled
+[2026-10-31T06:29:32.857Z] info    - Not serving HTTPS
+[2026-10-31T06:29:32.858Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[06:29:34] 
+
+
+
+
+[06:29:34] Extension host agent started.
+[06:29:40] [172.16.14.129][ecd48972][ManagementConnection] New connection established.
+[06:29:44] [172.16.14.129][8abac0e4][ExtensionHostConnection] New connection established.
+[06:29:44] [172.16.14.129][8abac0e4][ExtensionHostConnection] <72> Launched Extension Host Process.
+[07:34:29] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+[07:39:03] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+[07:39:03] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+[08:01:33] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+[08:01:33] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+[08:19:01] [172.16.14.129][ecd48972][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:32:28] [172.16.14.129][ecd48972][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:32:28] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+[08:32:30] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+[08:54:50] [172.16.14.129][ecd48972][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:55:30] [172.16.14.129][ecd48972][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:55:30] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+[08:55:31] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+[09:12:08] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+[09:12:53] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+[09:36:38] [172.16.14.129][ecd48972][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[09:52:16] [172.16.14.129][ecd48972][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[09:52:16] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+[09:52:16] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+[10:12:59] [172.16.14.129][ecd48972][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:13:32] [172.16.14.129][ecd48972][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[10:13:32] [172.16.14.129][8abac0e4][ExtensionHostConnection] The client has reconnected.
+[10:13:32] [172.16.14.129][ecd48972][ManagementConnection] The client has reconnected.
+[2026-11-01T04:42:44.183Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-11-01T04:42:44.185Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-01T04:42:44.222Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-01T04:42:44.222Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-01T04:42:44.222Z] info    - Authentication is disabled
+[2026-11-01T04:42:44.222Z] info    - Not serving HTTPS
+[2026-11-01T04:42:44.222Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[04:42:44] 
+
+
+
+
+[04:42:45] Extension host agent started.
+[04:42:50] [172.16.9.1][86f03215][ManagementConnection] New connection established.
+[04:42:54] [172.16.9.1][0b05b1c3][ExtensionHostConnection] New connection established.
+[04:42:54] [172.16.9.1][0b05b1c3][ExtensionHostConnection] <72> Launched Extension Host Process.

@@ -1,0 +1,14 @@
+STEP:        step0_pip_install
+DESCRIPTION: pip install -r requirements.txt (W4 superset)
+EXPECTED RC: 0
+TIMESTAMP:   2026-06-20T19:26:06+00:00
+COMMAND:
+    pip install --break-system-packages -q -r requirements.txt
+--- OUTPUT ---
+  WARNING: The scripts py.test and pytest are installed in '/voc/work/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script watchfiles is installed in '/voc/work/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+--- END ---
+EXIT_CODE: 0
+VERDICT:   PASS

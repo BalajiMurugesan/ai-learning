@@ -1,0 +1,51 @@
+code-server (1.103.2, vocproxy-2-30.us-west-2.vocareum.com, server-distro)
+Jupyter Extension Version: 2025.7.0.
+Python Extension Version: 2025.12.0.
+Python Environment Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /voc/work
+Temp Storage folder ~/.local/share/code-server/User/globalStorage/ms-toolsai.jupyter/version-2025.7.0
+Workspace folder /voc/work
+06:33:43.300 [info] Telemetry level is off
+06:33:43.300 [info] Experiments are disabled, only manually opted experiments are active.
+06:33:50.169 [info] Starting Kernel (Python Path: /usr/bin/python, Unknown, 3.10.14) for '~/W4_package/demo/Week 4-0 LLM Call.ipynb' (disableUI=false)
+06:33:51.041 [warn] Failed to get activated env vars for /usr/bin/python in 871ms
+06:33:51.062 [info] Process Execution: /usr/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+06:33:51.067 [warn] Failed to get activated env vars for /usr/bin/python in 882ms
+06:33:51.118 [info] Process Execution: /usr/bin/python -m pip list
+06:33:51.136 [info] Process Execution: /usr/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:33:51.164 [info] Process Execution: /usr/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v34ea98119ff5b303e27832f9991c8e32ffacbe61f.json
+    > cwd: ~/W4_package/demo
+06:33:53.189 [info] Kernel successfully started
+06:33:53.211 [info] Process Execution: /usr/bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/pythonFiles/printJupyterDataDir.py
+06:33:54.345 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+07:03:42.167 [info] Starting Kernel (Python Path: /usr/bin/python, Unknown, 3.10.14) for '~/W4_package/demo/Week 4-1 Counting Tokens.ipynb' (disableUI=false)
+07:03:42.819 [warn] Failed to get activated env vars for /usr/bin/python in 647ms
+07:03:42.837 [info] Process Execution: /usr/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+07:03:42.856 [info] Process Execution: /usr/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3bb493dfd86096c45edd34331cda67c1134772ad8.json
+    > cwd: ~/W4_package/demo
+07:03:43.085 [warn] Failed to get activated env vars for /usr/bin/python in 519ms
+07:03:43.105 [info] Process Execution: /usr/bin/python -m pip list
+07:03:44.128 [info] Kernel successfully started
+07:03:45.009 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+07:06:30.910 [warn] Cell completed with errors [vu [Error]: name 'num_tokens_from_messages' is not defined
+	at n.execute (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-toolsai.jupyter-2025.7.0/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'num_tokens_from_messages' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[6], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mrun_query\x1B[49m\x1B[43m(\x1B[49m\x1B[43msample_string\x1B[49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[4], line 37\x1B[0m, in \x1B[0;36mrun_query\x1B[0;34m(query)\x1B[0m\n' +
+      '\x1B[1;32m     31\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124m--- Chat Message Token Counting ---\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m     32\x1B[0m messages \x1B[38;5;241m=\x1B[39m [\n' +
+      '\x1B[1;32m     33\x1B[0m     {\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msystem\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mYou are a helpful assistant.\x1B[39m\x1B[38;5;124m"\x1B[39m},\n' +
+      '\x1B[1;32m     34\x1B[0m     {\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124muser\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: query}\n' +
+      '\x1B[1;32m     35\x1B[0m ]\n' +
+      '\x1B[0;32m---> 37\x1B[0m total_tokens \x1B[38;5;241m=\x1B[39m \x1B[43mnum_tokens_from_messages\x1B[49m(messages)\n' +
+      '\x1B[1;32m     38\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mTotal tokens for the chat payload (\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mMODEL_ID\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m): \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtotal_tokens\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'num_tokens_from_messages' is not defined"
+  ]
+}

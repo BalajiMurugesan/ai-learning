@@ -1,0 +1,528 @@
+2026-10-31 06:33:49.069 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:13
+2026-10-31 06:33:49.122 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-45:40
+2026-10-31 06:33:49.127 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-2:30
+2026-10-31 06:33:49.177 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "4": _pickle.UnpicklingError: invalid load key, '_'.
+NoneType: None
+
+2026-10-31 06:33:49.178 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:33:49.182 [info] [Error - 6:33:49 AM] Request textDocument/semanticTokens/range failed.
+2026-10-31 06:33:49.183 [info]   Message: _pickle.UnpicklingError: invalid load key, '_'.
+  Code: -32603 
+[object Object]
+2026-10-31 06:33:49.629 [info] [Debug - 6:33:49 AM] no definitions found for name "OpenAI" of type 'statement' (4:13)
+2026-10-31 06:33:49.630 [info] [Debug - 6:33:49 AM] no definitions found for name "chat" of type 'statement' (16:26)
+2026-10-31 06:33:49.635 [info] [Debug - 6:33:49 AM] no definitions found for name "completions" of type 'statement' (16:31)
+2026-10-31 06:33:49.639 [info] [Debug - 6:33:49 AM] no definitions found for name "create" of type 'statement' (16:43)
+2026-10-31 06:33:49.642 [info] [Debug - 6:33:49 AM] no definitions found for name "model" of type 'statement' (17:12)
+2026-10-31 06:33:49.645 [info] [Debug - 6:33:49 AM] no definitions found for name "messages" of type 'statement' (18:12)
+2026-10-31 06:33:49.648 [info] [Debug - 6:33:49 AM] no definitions found for name "temperature" of type 'statement' (19:12)
+2026-10-31 06:33:49.653 [info] [Debug - 6:33:49 AM] no definitions found for name "max_tokens" of type 'statement' (20:12)
+2026-10-31 06:33:49.657 [info] [Debug - 6:33:49 AM] no definitions found for name "choices" of type 'statement' (27:26)
+2026-10-31 06:33:49.661 [info] [Debug - 6:33:49 AM] no definitions found for name "message" of type 'statement' (28:33)
+2026-10-31 06:33:49.665 [info] [Debug - 6:33:49 AM] no definitions found for name "content" of type 'statement' (28:41)
+2026-10-31 06:33:49.670 [info] [Debug - 6:33:49 AM] no definitions found for name "finish_reason" of type 'statement' (29:31)
+2026-10-31 06:33:49.673 [info] [Debug - 6:33:49 AM] no definitions found for name "model" of type 'statement' (31:38)
+2026-10-31 06:33:49.677 [info] [Debug - 6:33:49 AM] no definitions found for name "usage" of type 'statement' (35:25)
+2026-10-31 06:33:49.681 [info] [Debug - 6:33:49 AM] no definitions found for name "prompt_tokens" of type 'statement' (38:50)
+2026-10-31 06:33:49.685 [info] [Debug - 6:33:49 AM] no definitions found for name "completion_tokens" of type 'statement' (39:50)
+2026-10-31 06:33:49.688 [info] [Debug - 6:33:49 AM] no definitions found for name "total_tokens" of type 'statement' (40:50)
+2026-10-31 06:33:49.692 [info] [Debug - 6:33:49 AM] no definitions found for name "strip" of type 'statement' (43:30)
+2026-10-31 06:33:49.696 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:33:49.700 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:33:49.832 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "9": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-10-31 06:33:49.833 [info] [Error - 6:33:49 AM] Request textDocument/semanticTokens/full failed.
+2026-10-31 06:33:49.835 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-10-31 06:34:25.156 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "11"
+
+2026-10-31 06:34:51.301 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:34:54.451 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:34:54.452 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:34:54.456 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "16": _pickle.UnpicklingError: invalid load key, '_'.
+NoneType: None
+
+2026-10-31 06:34:54.461 [info] [Error - 6:34:54 AM] Request textDocument/semanticTokens/full failed.
+2026-10-31 06:34:54.464 [info]   Message: _pickle.UnpicklingError: invalid load key, '_'.
+  Code: -32603 
+[object Object]
+2026-10-31 06:34:54.971 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:13
+2026-10-31 06:34:58.190 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "22"
+
+2026-10-31 06:35:00.688 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:35:00.692 [info] [Debug - 6:35:00 AM] no definitions found for name "OpenAI" of type 'statement' (4:13)
+2026-10-31 06:35:00.693 [info] [Debug - 6:35:00 AM] no definitions found for name "chat" of type 'statement' (16:26)
+2026-10-31 06:35:00.698 [info] [Debug - 6:35:00 AM] no definitions found for name "completions" of type 'statement' (16:31)
+2026-10-31 06:35:00.702 [info] [Debug - 6:35:00 AM] no definitions found for name "create" of type 'statement' (16:43)
+2026-10-31 06:35:00.706 [info] [Debug - 6:35:00 AM] no definitions found for name "model" of type 'statement' (17:12)
+2026-10-31 06:35:00.710 [info] [Debug - 6:35:00 AM] no definitions found for name "messages" of type 'statement' (18:12)
+2026-10-31 06:35:00.714 [info] [Debug - 6:35:00 AM] no definitions found for name "temperature" of type 'statement' (19:12)
+2026-10-31 06:35:00.717 [info] [Debug - 6:35:00 AM] no definitions found for name "max_tokens" of type 'statement' (20:12)
+2026-10-31 06:35:00.721 [info] [Debug - 6:35:00 AM] no definitions found for name "choices" of type 'statement' (27:26)
+2026-10-31 06:35:00.724 [info] [Debug - 6:35:00 AM] no definitions found for name "message" of type 'statement' (28:33)
+2026-10-31 06:35:00.729 [info] [Debug - 6:35:00 AM] no definitions found for name "content" of type 'statement' (28:41)
+2026-10-31 06:35:00.733 [info] [Debug - 6:35:00 AM] no definitions found for name "finish_reason" of type 'statement' (29:31)
+2026-10-31 06:35:00.736 [info] [Debug - 6:35:00 AM] no definitions found for name "model" of type 'statement' (31:38)
+2026-10-31 06:35:00.739 [info] [Debug - 6:35:00 AM] no definitions found for name "usage" of type 'statement' (35:25)
+2026-10-31 06:35:00.742 [info] [Debug - 6:35:00 AM] no definitions found for name "prompt_tokens" of type 'statement' (38:50)
+2026-10-31 06:35:00.746 [info] [Debug - 6:35:00 AM] no definitions found for name "completion_tokens" of type 'statement' (39:50)
+2026-10-31 06:35:00.750 [info] [Debug - 6:35:00 AM] no definitions found for name "total_tokens" of type 'statement' (40:50)
+2026-10-31 06:35:00.754 [info] [Debug - 6:35:00 AM] no definitions found for name "strip" of type 'statement' (43:30)
+2026-10-31 06:35:03.799 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "29"
+
+2026-10-31 06:35:04.323 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:35:04.327 [info] [Debug - 6:35:04 AM] no definitions found for name "OpenAI" of type 'statement' (4:13)
+2026-10-31 06:35:04.328 [info] [Debug - 6:35:04 AM] no definitions found for name "chat" of type 'statement' (16:26)
+2026-10-31 06:35:04.331 [info] [Debug - 6:35:04 AM] no definitions found for name "completions" of type 'statement' (16:31)
+2026-10-31 06:35:04.334 [info] [Debug - 6:35:04 AM] no definitions found for name "create" of type 'statement' (16:43)
+2026-10-31 06:35:04.338 [info] [Debug - 6:35:04 AM] no definitions found for name "model" of type 'statement' (17:12)
+2026-10-31 06:35:04.342 [info] [Debug - 6:35:04 AM] no definitions found for name "messages" of type 'statement' (18:12)
+2026-10-31 06:35:04.345 [info] [Debug - 6:35:04 AM] no definitions found for name "temperature" of type 'statement' (19:12)
+2026-10-31 06:35:04.349 [info] [Debug - 6:35:04 AM] no definitions found for name "choices" of type 'statement' (26:26)
+2026-10-31 06:35:04.352 [info] [Debug - 6:35:04 AM] no definitions found for name "message" of type 'statement' (27:33)
+2026-10-31 06:35:04.355 [info] [Debug - 6:35:04 AM] no definitions found for name "content" of type 'statement' (27:41)
+2026-10-31 06:35:04.359 [info] [Debug - 6:35:04 AM] no definitions found for name "finish_reason" of type 'statement' (28:31)
+2026-10-31 06:35:04.362 [info] [Debug - 6:35:04 AM] no definitions found for name "model" of type 'statement' (30:38)
+2026-10-31 06:35:04.367 [info] [Debug - 6:35:04 AM] no definitions found for name "usage" of type 'statement' (34:25)
+2026-10-31 06:35:04.370 [info] [Debug - 6:35:04 AM] no definitions found for name "prompt_tokens" of type 'statement' (37:50)
+2026-10-31 06:35:04.374 [info] [Debug - 6:35:04 AM] no definitions found for name "completion_tokens" of type 'statement' (38:50)
+2026-10-31 06:35:04.378 [info] [Debug - 6:35:04 AM] no definitions found for name "total_tokens" of type 'statement' (39:50)
+2026-10-31 06:35:04.382 [info] [Debug - 6:35:04 AM] no definitions found for name "strip" of type 'statement' (42:30)
+2026-10-31 06:35:05.975 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "35"
+
+2026-10-31 06:35:06.014 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:35:06.020 [info] [Debug - 6:35:06 AM] no definitions found for name "OpenAI" of type 'statement' (4:13)
+2026-10-31 06:35:06.021 [info] [Debug - 6:35:06 AM] no definitions found for name "chat" of type 'statement' (16:26)
+2026-10-31 06:35:06.024 [info] [Debug - 6:35:06 AM] no definitions found for name "completions" of type 'statement' (16:31)
+2026-10-31 06:35:06.027 [info] [Debug - 6:35:06 AM] no definitions found for name "create" of type 'statement' (16:43)
+2026-10-31 06:35:06.031 [info] [Debug - 6:35:06 AM] no definitions found for name "model" of type 'statement' (17:12)
+2026-10-31 06:35:06.034 [info] [Debug - 6:35:06 AM] no definitions found for name "messages" of type 'statement' (18:12)
+2026-10-31 06:35:06.038 [info] [Debug - 6:35:06 AM] no definitions found for name "temperature" of type 'statement' (19:12)
+2026-10-31 06:35:06.042 [info] [Debug - 6:35:06 AM] no definitions found for name "choices" of type 'statement' (26:26)
+2026-10-31 06:35:06.046 [info] [Debug - 6:35:06 AM] no definitions found for name "message" of type 'statement' (27:33)
+2026-10-31 06:35:06.049 [info] [Debug - 6:35:06 AM] no definitions found for name "content" of type 'statement' (27:41)
+2026-10-31 06:35:06.053 [info] [Debug - 6:35:06 AM] no definitions found for name "finish_reason" of type 'statement' (28:31)
+2026-10-31 06:35:06.057 [info] [Debug - 6:35:06 AM] no definitions found for name "model" of type 'statement' (30:38)
+2026-10-31 06:35:06.062 [info] [Debug - 6:35:06 AM] no definitions found for name "usage" of type 'statement' (34:25)
+2026-10-31 06:35:06.065 [info] [Debug - 6:35:06 AM] no definitions found for name "prompt_tokens" of type 'statement' (37:50)
+2026-10-31 06:35:06.069 [info] [Debug - 6:35:06 AM] no definitions found for name "completion_tokens" of type 'statement' (38:50)
+2026-10-31 06:35:06.073 [info] [Debug - 6:35:06 AM] no definitions found for name "total_tokens" of type 'statement' (39:50)
+2026-10-31 06:35:06.077 [info] [Debug - 6:35:06 AM] no definitions found for name "strip" of type 'statement' (42:30)
+2026-10-31 06:35:06.944 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:35:10.849 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:35:28.671 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:36:33.333 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:36:33.337 [info] [Debug - 6:36:33 AM] no definitions found for name "OpenAI" of type 'statement' (4:13)
+2026-10-31 06:36:33.342 [info] [Debug - 6:36:33 AM] no definitions found for name "chat" of type 'statement' (16:26)
+2026-10-31 06:36:33.345 [info] [Debug - 6:36:33 AM] no definitions found for name "completions" of type 'statement' (16:31)
+2026-10-31 06:36:33.350 [info] [Debug - 6:36:33 AM] no definitions found for name "create" of type 'statement' (16:43)
+2026-10-31 06:36:33.353 [info] [Debug - 6:36:33 AM] no definitions found for name "model" of type 'statement' (17:12)
+2026-10-31 06:36:33.356 [info] [Debug - 6:36:33 AM] no definitions found for name "messages" of type 'statement' (18:12)
+2026-10-31 06:36:33.360 [info] [Debug - 6:36:33 AM] no definitions found for name "temperature" of type 'statement' (19:12)
+2026-10-31 06:36:33.365 [info] [Debug - 6:36:33 AM] no definitions found for name "choices" of type 'statement' (26:26)
+2026-10-31 06:36:33.369 [info] [Debug - 6:36:33 AM] no definitions found for name "message" of type 'statement' (27:33)
+2026-10-31 06:36:33.375 [info] [Debug - 6:36:33 AM] no definitions found for name "content" of type 'statement' (27:41)
+2026-10-31 06:36:33.378 [info] [Debug - 6:36:33 AM] no definitions found for name "finish_reason" of type 'statement' (28:31)
+2026-10-31 06:36:33.382 [info] [Debug - 6:36:33 AM] no definitions found for name "model" of type 'statement' (30:38)
+2026-10-31 06:36:33.386 [info] [Debug - 6:36:33 AM] no definitions found for name "usage" of type 'statement' (34:25)
+2026-10-31 06:36:33.390 [info] [Debug - 6:36:33 AM] no definitions found for name "prompt_tokens" of type 'statement' (37:50)
+2026-10-31 06:36:33.393 [info] [Debug - 6:36:33 AM] no definitions found for name "completion_tokens" of type 'statement' (38:50)
+2026-10-31 06:36:33.397 [info] [Debug - 6:36:33 AM] no definitions found for name "total_tokens" of type 'statement' (39:50)
+2026-10-31 06:36:33.402 [info] [Debug - 6:36:33 AM] no definitions found for name "strip" of type 'statement' (42:30)
+2026-10-31 06:36:34.028 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:36:34.032 [info] [Debug - 6:36:34 AM] no definitions found for name "OpenAI" of type 'statement' (4:13)
+2026-10-31 06:36:34.033 [info] [Debug - 6:36:34 AM] no definitions found for name "chat" of type 'statement' (16:26)
+2026-10-31 06:36:34.037 [info] [Debug - 6:36:34 AM] no definitions found for name "completions" of type 'statement' (16:31)
+2026-10-31 06:36:34.041 [info] [Debug - 6:36:34 AM] no definitions found for name "create" of type 'statement' (16:43)
+2026-10-31 06:36:34.046 [info] [Debug - 6:36:34 AM] no definitions found for name "model" of type 'statement' (17:12)
+2026-10-31 06:36:34.049 [info] [Debug - 6:36:34 AM] no definitions found for name "messages" of type 'statement' (18:12)
+2026-10-31 06:36:34.053 [info] [Debug - 6:36:34 AM] no definitions found for name "temperature" of type 'statement' (19:12)
+2026-10-31 06:36:34.057 [info] [Debug - 6:36:34 AM] no definitions found for name "choices" of type 'statement' (26:26)
+2026-10-31 06:36:34.061 [info] [Debug - 6:36:34 AM] no definitions found for name "message" of type 'statement' (27:33)
+2026-10-31 06:36:34.065 [info] [Debug - 6:36:34 AM] no definitions found for name "content" of type 'statement' (27:41)
+2026-10-31 06:36:34.070 [info] [Debug - 6:36:34 AM] no definitions found for name "finish_reason" of type 'statement' (28:31)
+2026-10-31 06:36:34.073 [info] [Debug - 6:36:34 AM] no definitions found for name "model" of type 'statement' (30:38)
+2026-10-31 06:36:34.077 [info] [Debug - 6:36:34 AM] no definitions found for name "usage" of type 'statement' (34:25)
+2026-10-31 06:36:34.081 [info] [Debug - 6:36:34 AM] no definitions found for name "prompt_tokens" of type 'statement' (37:50)
+2026-10-31 06:36:34.085 [info] [Debug - 6:36:34 AM] no definitions found for name "completion_tokens" of type 'statement' (38:50)
+2026-10-31 06:36:34.089 [info] [Debug - 6:36:34 AM] no definitions found for name "total_tokens" of type 'statement' (39:50)
+2026-10-31 06:36:34.093 [info] [Debug - 6:36:34 AM] no definitions found for name "strip" of type 'statement' (42:30)
+2026-10-31 06:36:57.344 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:36:57.591 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:39
+2026-10-31 06:37:03.639 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:37:09.021 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:46:53.160 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:46:53.625 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 06:46:53.629 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:39
+2026-10-31 06:46:53.631 [info] [Debug - 6:46:53 AM] no definitions found for name "OpenAI" of type 'statement' (4:13)
+2026-10-31 06:46:53.633 [info] [Debug - 6:46:53 AM] no definitions found for name "query" of type 'statement' (9:36)
+2026-10-31 06:46:53.636 [info] [Debug - 6:46:53 AM] no definitions found for name "client" of type 'statement' (16:19)
+2026-10-31 06:46:53.640 [info] [Debug - 6:46:53 AM] no definitions found for name "chat" of type 'statement' (16:26)
+2026-10-31 06:46:53.644 [info] [Debug - 6:46:53 AM] no definitions found for name "completions" of type 'statement' (16:31)
+2026-10-31 06:46:53.649 [info] [Debug - 6:46:53 AM] no definitions found for name "create" of type 'statement' (16:43)
+2026-10-31 06:46:53.652 [info] [Debug - 6:46:53 AM] no definitions found for name "model" of type 'statement' (17:12)
+2026-10-31 06:46:53.656 [info] [Debug - 6:46:53 AM] no definitions found for name "messages" of type 'statement' (18:12)
+2026-10-31 06:46:53.659 [info] [Debug - 6:46:53 AM] no definitions found for name "messages" of type 'statement' (18:21)
+2026-10-31 06:46:53.663 [info] [Debug - 6:46:53 AM] no definitions found for name "temperature" of type 'statement' (19:12)
+2026-10-31 06:46:53.668 [info] [Debug - 6:46:53 AM] no definitions found for name "response" of type 'statement' (26:17)
+2026-10-31 06:46:53.671 [info] [Debug - 6:46:53 AM] no definitions found for name "choices" of type 'statement' (26:26)
+2026-10-31 06:46:53.675 [info] [Debug - 6:46:53 AM] no definitions found for name "choice" of type 'statement' (27:26)
+2026-10-31 06:46:53.678 [info] [Debug - 6:46:53 AM] no definitions found for name "message" of type 'statement' (27:33)
+2026-10-31 06:46:53.683 [info] [Debug - 6:46:53 AM] no definitions found for name "content" of type 'statement' (27:41)
+2026-10-31 06:46:53.687 [info] [Debug - 6:46:53 AM] no definitions found for name "choice" of type 'statement' (28:24)
+2026-10-31 06:46:53.691 [info] [Debug - 6:46:53 AM] no definitions found for name "finish_reason" of type 'statement' (28:31)
+2026-10-31 06:46:53.694 [info] [Debug - 6:46:53 AM] no definitions found for name "response" of type 'statement' (30:29)
+2026-10-31 06:46:53.698 [info] [Debug - 6:46:53 AM] no definitions found for name "model" of type 'statement' (30:38)
+2026-10-31 06:46:53.702 [info] [Debug - 6:46:53 AM] no definitions found for name "finish_reason" of type 'statement' (31:32)
+2026-10-31 06:46:53.705 [info] [Debug - 6:46:53 AM] no definitions found for name "response" of type 'statement' (34:16)
+2026-10-31 06:46:53.709 [info] [Debug - 6:46:53 AM] no definitions found for name "usage" of type 'statement' (34:25)
+2026-10-31 06:46:53.712 [info] [Debug - 6:46:53 AM] no definitions found for name "usage" of type 'statement' (35:11)
+2026-10-31 06:46:53.716 [info] [Debug - 6:46:53 AM] no definitions found for name "usage" of type 'statement' (37:44)
+2026-10-31 06:46:53.720 [info] [Debug - 6:46:53 AM] no definitions found for name "prompt_tokens" of type 'statement' (37:50)
+2026-10-31 06:46:53.726 [info] [Debug - 6:46:53 AM] no definitions found for name "usage" of type 'statement' (38:44)
+2026-10-31 06:46:53.729 [info] [Debug - 6:46:53 AM] no definitions found for name "completion_tokens" of type 'statement' (38:50)
+2026-10-31 06:46:53.734 [info] [Debug - 6:46:53 AM] no definitions found for name "usage" of type 'statement' (39:44)
+2026-10-31 06:46:53.738 [info] [Debug - 6:46:53 AM] no definitions found for name "total_tokens" of type 'statement' (39:50)
+2026-10-31 06:46:53.742 [info] [Debug - 6:46:53 AM] no definitions found for name "message_content" of type 'statement' (42:14)
+2026-10-31 06:46:53.746 [info] [Debug - 6:46:53 AM] no definitions found for name "strip" of type 'statement' (42:30)
+2026-10-31 06:46:53.750 [info] [Debug - 6:46:53 AM] no definitions found for name "e" of type 'statement' (45:36)
+2026-10-31 06:46:54.000 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-0%20LLM%20Call.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-44:40
+2026-10-31 06:46:54.004 [info] [Debug - 6:46:54 AM] no definitions found for name "OpenAI" of type 'statement' (4:13)
+2026-10-31 06:46:54.005 [info] [Debug - 6:46:54 AM] no definitions found for name "chat" of type 'statement' (16:26)
+2026-10-31 06:46:54.010 [info] [Debug - 6:46:54 AM] no definitions found for name "completions" of type 'statement' (16:31)
+2026-10-31 06:46:54.013 [info] [Debug - 6:46:54 AM] no definitions found for name "create" of type 'statement' (16:43)
+2026-10-31 06:46:54.017 [info] [Debug - 6:46:54 AM] no definitions found for name "model" of type 'statement' (17:12)
+2026-10-31 06:46:54.020 [info] [Debug - 6:46:54 AM] no definitions found for name "messages" of type 'statement' (18:12)
+2026-10-31 06:46:54.025 [info] [Debug - 6:46:54 AM] no definitions found for name "temperature" of type 'statement' (19:12)
+2026-10-31 06:46:54.029 [info] [Debug - 6:46:54 AM] no definitions found for name "choices" of type 'statement' (26:26)
+2026-10-31 06:46:54.033 [info] [Debug - 6:46:54 AM] no definitions found for name "message" of type 'statement' (27:33)
+2026-10-31 06:46:54.038 [info] [Debug - 6:46:54 AM] no definitions found for name "content" of type 'statement' (27:41)
+2026-10-31 06:46:54.042 [info] [Debug - 6:46:54 AM] no definitions found for name "finish_reason" of type 'statement' (28:31)
+2026-10-31 06:46:54.046 [info] [Debug - 6:46:54 AM] no definitions found for name "model" of type 'statement' (30:38)
+2026-10-31 06:46:54.051 [info] [Debug - 6:46:54 AM] no definitions found for name "usage" of type 'statement' (34:25)
+2026-10-31 06:46:54.055 [info] [Debug - 6:46:54 AM] no definitions found for name "prompt_tokens" of type 'statement' (37:50)
+2026-10-31 06:46:54.060 [info] [Debug - 6:46:54 AM] no definitions found for name "completion_tokens" of type 'statement' (38:50)
+2026-10-31 06:46:54.064 [info] [Debug - 6:46:54 AM] no definitions found for name "total_tokens" of type 'statement' (39:50)
+2026-10-31 06:46:54.068 [info] [Debug - 6:46:54 AM] no definitions found for name "strip" of type 'statement' (42:30)
+2026-10-31 07:03:39.936 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:03:39.940 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:03:39.944 [info] [Debug - 7:03:39 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:03:39.948 [info] [Debug - 7:03:39 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:03:39.952 [info] [Debug - 7:03:39 AM] no definitions found for name "messages" of type 'statement' (12:19)
+2026-10-31 07:03:39.956 [info] [Debug - 7:03:39 AM] no definitions found for name "tokens_per_message" of type 'statement' (13:22)
+2026-10-31 07:03:39.960 [info] [Debug - 7:03:39 AM] no definitions found for name "message" of type 'statement' (14:26)
+2026-10-31 07:03:39.963 [info] [Debug - 7:03:39 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:03:39.967 [info] [Debug - 7:03:39 AM] no definitions found for name "encoding" of type 'statement' (15:30)
+2026-10-31 07:03:39.972 [info] [Debug - 7:03:39 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:03:39.975 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:03:39.980 [info] [Debug - 7:03:39 AM] no definitions found for name "value" of type 'statement' (15:50)
+2026-10-31 07:03:39.984 [info] [Debug - 7:03:39 AM] no definitions found for name "key" of type 'statement' (16:15)
+2026-10-31 07:03:39.987 [info] [Debug - 7:03:39 AM] no definitions found for name "tokens_per_name" of type 'statement' (17:30)
+2026-10-31 07:03:39.992 [info] [Debug - 7:03:39 AM] no definitions found for name "num_tokens" of type 'statement' (20:11)
+2026-10-31 07:03:39.997 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:03:40.461 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-19:21
+2026-10-31 07:03:40.465 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:15
+2026-10-31 07:03:40.467 [info] [Debug - 7:03:40 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:03:40.471 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:26
+2026-10-31 07:03:40.496 [info] [Debug - 7:03:40 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:03:40.496 [info] [Debug - 7:03:40 AM] no definitions found for name "messages" of type 'statement' (12:19)
+2026-10-31 07:03:40.500 [info] [Debug - 7:03:40 AM] no definitions found for name "tokens_per_message" of type 'statement' (13:22)
+2026-10-31 07:03:40.504 [info] [Debug - 7:03:40 AM] no definitions found for name "message" of type 'statement' (14:26)
+2026-10-31 07:03:40.507 [info] [Debug - 7:03:40 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:03:40.512 [info] [Debug - 7:03:40 AM] no definitions found for name "encoding" of type 'statement' (15:30)
+2026-10-31 07:03:40.515 [info] [Debug - 7:03:40 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:03:40.519 [info] [Debug - 7:03:40 AM] no definitions found for name "value" of type 'statement' (15:50)
+2026-10-31 07:03:40.523 [info] [Debug - 7:03:40 AM] no definitions found for name "key" of type 'statement' (16:15)
+2026-10-31 07:03:40.528 [info] [Debug - 7:03:40 AM] no definitions found for name "tokens_per_name" of type 'statement' (17:30)
+2026-10-31 07:03:40.532 [info] [Debug - 7:03:40 AM] no definitions found for name "num_tokens" of type 'statement' (20:11)
+2026-10-31 07:05:07.933 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:07.937 [info] [Debug - 7:05:07 AM] no definitions found for name "MODEL_ID" of type 'statement' (4:45)
+2026-10-31 07:05:07.942 [info] [Debug - 7:05:07 AM] no definitions found for name "tiktoken" of type 'statement' (7:19)
+2026-10-31 07:05:07.945 [info] [Debug - 7:05:07 AM] no definitions found for name "encoding_for_model" of type 'statement' (7:28)
+2026-10-31 07:05:07.948 [info] [Debug - 7:05:07 AM] no definitions found for name "MODEL_ID" of type 'statement' (7:47)
+2026-10-31 07:05:07.953 [info] [Debug - 7:05:07 AM] no definitions found for name "model_name" of type 'statement' (9:23)
+2026-10-31 07:05:07.957 [info] [Debug - 7:05:07 AM] no definitions found for name "tiktoken" of type 'statement' (10:19)
+2026-10-31 07:05:07.960 [info] [Debug - 7:05:07 AM] no definitions found for name "get_encoding" of type 'statement' (10:28)
+2026-10-31 07:05:07.965 [info] [Debug - 7:05:07 AM] multiple definitions found for name "encoding" of type 'statement' (16:16):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:05:07.970 [info] [Debug - 7:05:07 AM] no definitions found for name "encode" of type 'statement' (16:25)
+2026-10-31 07:05:07.974 [info] [Debug - 7:05:07 AM] multiple definitions found for name "encoding" of type 'statement' (21:19):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:05:07.978 [info] [Debug - 7:05:07 AM] no definitions found for name "decode" of type 'statement' (21:28)
+2026-10-31 07:05:07.981 [info] [Debug - 7:05:07 AM] multiple definitions found for name "encoding" of type 'statement' (27:29):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:05:07.986 [info] [Debug - 7:05:07 AM] no definitions found for name "decode_bytes" of type 'statement' (27:38)
+2026-10-31 07:05:07.990 [info] [Debug - 7:05:07 AM] no definitions found for name "num_tokens_from_messages" of type 'statement' (37:19)
+2026-10-31 07:05:07.994 [info] [Debug - 7:05:07 AM] no definitions found for name "MODEL_ID" of type 'statement' (38:48)
+2026-10-31 07:05:08.457 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:08.460 [info] [Debug - 7:05:08 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:05:08.461 [info] [Debug - 7:05:08 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:05:08.466 [info] [Debug - 7:05:08 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:05:08.877 [info] [Debug - 7:05:08 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:05:08.878 [info] [Debug - 7:05:08 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:05:08.973 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-19:21
+2026-10-31 07:05:08.976 [info] [Debug - 7:05:08 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:05:08.978 [info] [Debug - 7:05:08 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:05:08.981 [info] [Debug - 7:05:08 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:05:09.050 [info] [Debug - 7:05:09 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:05:09.050 [info] [Debug - 7:05:09 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:05:13.300 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:15.790 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:15.794 [info] [Debug - 7:05:15 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:05:15.795 [info] [Debug - 7:05:15 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:05:15.799 [info] [Debug - 7:05:15 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:05:15.929 [info] [Debug - 7:05:15 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:05:15.930 [info] [Debug - 7:05:15 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:05:16.014 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-19:21
+2026-10-31 07:05:16.017 [info] [Debug - 7:05:16 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:05:16.019 [info] [Debug - 7:05:16 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:05:16.023 [info] [Debug - 7:05:16 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:05:16.073 [info] [Debug - 7:05:16 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:05:16.074 [info] [Debug - 7:05:16 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:05:35.191 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:35.480 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:35.482 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-9:3
+2026-10-31 07:05:35.485 [info] [Debug - 7:05:35 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:05:38.338 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#X11sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:39.976 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:39.978 [info] [Debug - 7:05:39 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:05:40.433 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:49.091 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#X11sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:53.611 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:53.614 [info] [Debug - 7:05:53 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:05:53.700 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:54.322 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:05:54.327 [info] [Debug - 7:05:54 AM] no definitions found for name "MODEL_ID" of type 'statement' (4:45)
+2026-10-31 07:05:54.327 [info] [Debug - 7:05:54 AM] no definitions found for name "tiktoken" of type 'statement' (7:19)
+2026-10-31 07:05:54.331 [info] [Debug - 7:05:54 AM] no definitions found for name "encoding_for_model" of type 'statement' (7:28)
+2026-10-31 07:05:54.336 [info] [Debug - 7:05:54 AM] no definitions found for name "MODEL_ID" of type 'statement' (7:47)
+2026-10-31 07:05:54.339 [info] [Debug - 7:05:54 AM] no definitions found for name "model_name" of type 'statement' (9:23)
+2026-10-31 07:05:54.344 [info] [Debug - 7:05:54 AM] no definitions found for name "tiktoken" of type 'statement' (10:19)
+2026-10-31 07:05:54.348 [info] [Debug - 7:05:54 AM] no definitions found for name "get_encoding" of type 'statement' (10:28)
+2026-10-31 07:05:54.353 [info] [Debug - 7:05:54 AM] multiple definitions found for name "encoding" of type 'statement' (16:16):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:05:54.357 [info] [Debug - 7:05:54 AM] no definitions found for name "encode" of type 'statement' (16:25)
+2026-10-31 07:05:54.361 [info] [Debug - 7:05:54 AM] multiple definitions found for name "encoding" of type 'statement' (21:19):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:05:54.364 [info] [Debug - 7:05:54 AM] no definitions found for name "decode" of type 'statement' (21:28)
+2026-10-31 07:05:54.368 [info] [Debug - 7:05:54 AM] multiple definitions found for name "encoding" of type 'statement' (27:29):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:05:54.373 [info] [Debug - 7:05:54 AM] no definitions found for name "decode_bytes" of type 'statement' (27:38)
+2026-10-31 07:05:54.377 [info] [Debug - 7:05:54 AM] no definitions found for name "num_tokens_from_messages" of type 'statement' (37:19)
+2026-10-31 07:05:54.381 [info] [Debug - 7:05:54 AM] no definitions found for name "MODEL_ID" of type 'statement' (38:48)
+2026-10-31 07:06:04.657 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#X11sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:06:08.050 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:06:08.052 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:06:08.054 [info] [Debug - 7:06:08 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:06:13.236 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:06:13.241 [info] [Debug - 7:06:13 AM] no definitions found for name "MODEL_ID" of type 'statement' (4:45)
+2026-10-31 07:06:13.247 [info] [Debug - 7:06:13 AM] no definitions found for name "tiktoken" of type 'statement' (7:19)
+2026-10-31 07:06:13.250 [info] [Debug - 7:06:13 AM] no definitions found for name "encoding_for_model" of type 'statement' (7:28)
+2026-10-31 07:06:13.254 [info] [Debug - 7:06:13 AM] no definitions found for name "MODEL_ID" of type 'statement' (7:47)
+2026-10-31 07:06:13.257 [info] [Debug - 7:06:13 AM] no definitions found for name "model_name" of type 'statement' (9:23)
+2026-10-31 07:06:13.262 [info] [Debug - 7:06:13 AM] no definitions found for name "tiktoken" of type 'statement' (10:19)
+2026-10-31 07:06:13.266 [info] [Debug - 7:06:13 AM] no definitions found for name "get_encoding" of type 'statement' (10:28)
+2026-10-31 07:06:13.271 [info] [Debug - 7:06:13 AM] multiple definitions found for name "encoding" of type 'statement' (16:16):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:06:13.275 [info] [Debug - 7:06:13 AM] no definitions found for name "encode" of type 'statement' (16:25)
+2026-10-31 07:06:13.279 [info] [Debug - 7:06:13 AM] multiple definitions found for name "encoding" of type 'statement' (21:19):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:06:13.283 [info] [Debug - 7:06:13 AM] no definitions found for name "decode" of type 'statement' (21:28)
+2026-10-31 07:06:13.288 [info] [Debug - 7:06:13 AM] multiple definitions found for name "encoding" of type 'statement' (27:29):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:06:13.291 [info] [Debug - 7:06:13 AM] no definitions found for name "decode_bytes" of type 'statement' (27:38)
+2026-10-31 07:06:13.296 [info] [Debug - 7:06:13 AM] no definitions found for name "num_tokens_from_messages" of type 'statement' (37:19)
+2026-10-31 07:06:13.299 [info] [Debug - 7:06:13 AM] no definitions found for name "MODEL_ID" of type 'statement' (38:48)
+2026-10-31 07:06:22.492 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:06:22.494 [info] [Debug - 7:06:22 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:06:22.925 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:24
+2026-10-31 07:06:22.928 [info] [Debug - 7:06:22 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:08:05.078 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:05.495 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:05.500 [info] [Debug - 7:08:05 AM] no definitions found for name "MODEL_ID" of type 'statement' (4:45)
+2026-10-31 07:08:05.500 [info] [Debug - 7:08:05 AM] no definitions found for name "tiktoken" of type 'statement' (7:19)
+2026-10-31 07:08:05.505 [info] [Debug - 7:08:05 AM] no definitions found for name "encoding_for_model" of type 'statement' (7:28)
+2026-10-31 07:08:05.509 [info] [Debug - 7:08:05 AM] no definitions found for name "MODEL_ID" of type 'statement' (7:47)
+2026-10-31 07:08:05.513 [info] [Debug - 7:08:05 AM] no definitions found for name "model_name" of type 'statement' (9:23)
+2026-10-31 07:08:05.517 [info] [Debug - 7:08:05 AM] no definitions found for name "tiktoken" of type 'statement' (10:19)
+2026-10-31 07:08:05.521 [info] [Debug - 7:08:05 AM] no definitions found for name "get_encoding" of type 'statement' (10:28)
+2026-10-31 07:08:05.526 [info] [Debug - 7:08:05 AM] multiple definitions found for name "encoding" of type 'statement' (16:16):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:08:05.530 [info] [Debug - 7:08:05 AM] no definitions found for name "encode" of type 'statement' (16:25)
+2026-10-31 07:08:05.534 [info] [Debug - 7:08:05 AM] multiple definitions found for name "encoding" of type 'statement' (21:19):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:08:05.538 [info] [Debug - 7:08:05 AM] no definitions found for name "decode" of type 'statement' (21:28)
+2026-10-31 07:08:05.543 [info] [Debug - 7:08:05 AM] multiple definitions found for name "encoding" of type 'statement' (27:29):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:08:05.548 [info] [Debug - 7:08:05 AM] no definitions found for name "decode_bytes" of type 'statement' (27:38)
+2026-10-31 07:08:05.552 [info] [Debug - 7:08:05 AM] no definitions found for name "num_tokens_from_messages" of type 'statement' (37:19)
+2026-10-31 07:08:05.556 [info] [Debug - 7:08:05 AM] no definitions found for name "MODEL_ID" of type 'statement' (38:48)
+2026-10-31 07:08:14.743 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "128"
+
+2026-10-31 07:08:15.794 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:15.798 [info] [Debug - 7:08:15 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:08:22.225 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:22.229 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:22.233 [info] [Debug - 7:08:22 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:08:22.237 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:22.242 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:22.246 [info] [Debug - 7:08:22 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:08:22.250 [info] [Debug - 7:08:22 AM] no definitions found for name "messages" of type 'statement' (12:19)
+2026-10-31 07:08:22.253 [info] [Debug - 7:08:22 AM] no definitions found for name "tokens_per_message" of type 'statement' (13:22)
+2026-10-31 07:08:22.258 [info] [Debug - 7:08:22 AM] no definitions found for name "message" of type 'statement' (14:26)
+2026-10-31 07:08:22.263 [info] [Debug - 7:08:22 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:08:22.266 [info] [Debug - 7:08:22 AM] no definitions found for name "encoding" of type 'statement' (15:30)
+2026-10-31 07:08:22.273 [info] [Debug - 7:08:22 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:08:22.277 [info] [Debug - 7:08:22 AM] no definitions found for name "value" of type 'statement' (15:50)
+2026-10-31 07:08:22.282 [info] [Debug - 7:08:22 AM] no definitions found for name "key" of type 'statement' (16:15)
+2026-10-31 07:08:22.286 [info] [Debug - 7:08:22 AM] no definitions found for name "tokens_per_name" of type 'statement' (17:30)
+2026-10-31 07:08:22.290 [info] [Debug - 7:08:22 AM] no definitions found for name "num_tokens" of type 'statement' (20:11)
+2026-10-31 07:08:25.114 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:25.119 [info] [Debug - 7:08:25 AM] no definitions found for name "MODEL_ID" of type 'statement' (4:45)
+2026-10-31 07:08:25.119 [info] [Debug - 7:08:25 AM] no definitions found for name "tiktoken" of type 'statement' (7:19)
+2026-10-31 07:08:25.123 [info] [Debug - 7:08:25 AM] no definitions found for name "encoding_for_model" of type 'statement' (7:28)
+2026-10-31 07:08:25.128 [info] [Debug - 7:08:25 AM] no definitions found for name "MODEL_ID" of type 'statement' (7:47)
+2026-10-31 07:08:25.132 [info] [Debug - 7:08:25 AM] no definitions found for name "model_name" of type 'statement' (9:23)
+2026-10-31 07:08:25.135 [info] [Debug - 7:08:25 AM] no definitions found for name "tiktoken" of type 'statement' (10:19)
+2026-10-31 07:08:25.139 [info] [Debug - 7:08:25 AM] no definitions found for name "get_encoding" of type 'statement' (10:28)
+2026-10-31 07:08:25.144 [info] [Debug - 7:08:25 AM] multiple definitions found for name "encoding" of type 'statement' (16:16):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:08:25.149 [info] [Debug - 7:08:25 AM] no definitions found for name "encode" of type 'statement' (16:25)
+2026-10-31 07:08:25.154 [info] [Debug - 7:08:25 AM] multiple definitions found for name "encoding" of type 'statement' (21:19):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:08:25.158 [info] [Debug - 7:08:25 AM] no definitions found for name "decode" of type 'statement' (21:28)
+2026-10-31 07:08:25.162 [info] [Debug - 7:08:25 AM] multiple definitions found for name "encoding" of type 'statement' (27:29):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:08:25.166 [info] [Debug - 7:08:25 AM] no definitions found for name "decode_bytes" of type 'statement' (27:38)
+2026-10-31 07:08:25.170 [info] [Debug - 7:08:25 AM] no definitions found for name "num_tokens_from_messages" of type 'statement' (37:19)
+2026-10-31 07:08:25.174 [info] [Debug - 7:08:25 AM] no definitions found for name "MODEL_ID" of type 'statement' (38:48)
+2026-10-31 07:08:33.123 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:08:33.126 [info] [Debug - 7:08:33 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:08:33.332 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W6sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:24
+2026-10-31 07:08:33.334 [info] [Debug - 7:08:33 AM] no definitions found for name "sample_string" of type 'statement' (1:10)
+2026-10-31 07:08:35.746 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:09:07.273 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W5sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:09:07.671 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:09:07.676 [info] [Debug - 7:09:07 AM] no definitions found for name "MODEL_ID" of type 'statement' (4:45)
+2026-10-31 07:09:07.676 [info] [Debug - 7:09:07 AM] no definitions found for name "tiktoken" of type 'statement' (7:19)
+2026-10-31 07:09:07.680 [info] [Debug - 7:09:07 AM] no definitions found for name "encoding_for_model" of type 'statement' (7:28)
+2026-10-31 07:09:07.684 [info] [Debug - 7:09:07 AM] no definitions found for name "MODEL_ID" of type 'statement' (7:47)
+2026-10-31 07:09:07.689 [info] [Debug - 7:09:07 AM] no definitions found for name "model_name" of type 'statement' (9:23)
+2026-10-31 07:09:07.694 [info] [Debug - 7:09:07 AM] no definitions found for name "tiktoken" of type 'statement' (10:19)
+2026-10-31 07:09:07.698 [info] [Debug - 7:09:07 AM] no definitions found for name "get_encoding" of type 'statement' (10:28)
+2026-10-31 07:09:07.702 [info] [Debug - 7:09:07 AM] multiple definitions found for name "encoding" of type 'statement' (16:16):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:07.707 [info] [Debug - 7:09:07 AM] no definitions found for name "encode" of type 'statement' (16:25)
+2026-10-31 07:09:07.710 [info] [Debug - 7:09:07 AM] multiple definitions found for name "encoding" of type 'statement' (21:19):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:07.714 [info] [Debug - 7:09:07 AM] no definitions found for name "decode" of type 'statement' (21:28)
+2026-10-31 07:09:07.718 [info] [Debug - 7:09:07 AM] multiple definitions found for name "encoding" of type 'statement' (27:29):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:07.723 [info] [Debug - 7:09:07 AM] no definitions found for name "decode_bytes" of type 'statement' (27:38)
+2026-10-31 07:09:07.727 [info] [Debug - 7:09:07 AM] no definitions found for name "num_tokens_from_messages" of type 'statement' (37:19)
+2026-10-31 07:09:07.731 [info] [Debug - 7:09:07 AM] no definitions found for name "MODEL_ID" of type 'statement' (38:48)
+2026-10-31 07:09:08.136 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-37:76
+2026-10-31 07:09:08.140 [info] [Debug - 7:09:08 AM] no definitions found for name "MODEL_ID" of type 'statement' (4:45)
+2026-10-31 07:09:08.140 [info] [Debug - 7:09:08 AM] no definitions found for name "tiktoken" of type 'statement' (7:19)
+2026-10-31 07:09:08.145 [info] [Debug - 7:09:08 AM] no definitions found for name "encoding_for_model" of type 'statement' (7:28)
+2026-10-31 07:09:08.148 [info] [Debug - 7:09:08 AM] no definitions found for name "MODEL_ID" of type 'statement' (7:47)
+2026-10-31 07:09:08.153 [info] [Debug - 7:09:08 AM] no definitions found for name "model_name" of type 'statement' (9:23)
+2026-10-31 07:09:08.157 [info] [Debug - 7:09:08 AM] no definitions found for name "tiktoken" of type 'statement' (10:19)
+2026-10-31 07:09:08.162 [info] [Debug - 7:09:08 AM] no definitions found for name "get_encoding" of type 'statement' (10:28)
+2026-10-31 07:09:08.165 [info] [Debug - 7:09:08 AM] multiple definitions found for name "encoding" of type 'statement' (16:16):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:08.169 [info] [Debug - 7:09:08 AM] no definitions found for name "encode" of type 'statement' (16:25)
+2026-10-31 07:09:08.175 [info] [Debug - 7:09:08 AM] multiple definitions found for name "encoding" of type 'statement' (21:19):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:08.178 [info] [Debug - 7:09:08 AM] no definitions found for name "decode" of type 'statement' (21:28)
+2026-10-31 07:09:08.182 [info] [Debug - 7:09:08 AM] multiple definitions found for name "encoding" of type 'statement' (27:29):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:08.185 [info] [Debug - 7:09:08 AM] no definitions found for name "decode_bytes" of type 'statement' (27:38)
+2026-10-31 07:09:08.188 [info] [Debug - 7:09:08 AM] no definitions found for name "num_tokens_from_messages" of type 'statement' (37:19)
+2026-10-31 07:09:08.192 [info] [Debug - 7:09:08 AM] no definitions found for name "MODEL_ID" of type 'statement' (38:48)
+2026-10-31 07:09:09.188 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:09:09.192 [info] [Debug - 7:09:09 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:09:09.195 [info] [Debug - 7:09:09 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:09:09.199 [info] [Debug - 7:09:09 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:09:09.483 [info] [Debug - 7:09:09 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:09:09.484 [info] [Debug - 7:09:09 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:09:09.578 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-19:21
+2026-10-31 07:09:09.581 [info] [Debug - 7:09:09 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:09:09.582 [info] [Debug - 7:09:09 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:09:09.585 [info] [Debug - 7:09:09 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:09:09.612 [info] [Debug - 7:09:09 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:09:09.614 [info] [Debug - 7:09:09 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:09:10.757 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:09:10.759 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:09:10.762 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W0sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:09:10.952 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:24
+2026-10-31 07:09:10.999 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-0:15
+2026-10-31 07:09:12.763 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W4sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:09:12.769 [info] [Debug - 7:09:12 AM] no definitions found for name "MODEL_ID" of type 'statement' (4:45)
+2026-10-31 07:09:12.769 [info] [Debug - 7:09:12 AM] no definitions found for name "tiktoken" of type 'statement' (7:19)
+2026-10-31 07:09:12.774 [info] [Debug - 7:09:12 AM] no definitions found for name "encoding_for_model" of type 'statement' (7:28)
+2026-10-31 07:09:12.778 [info] [Debug - 7:09:12 AM] no definitions found for name "MODEL_ID" of type 'statement' (7:47)
+2026-10-31 07:09:12.782 [info] [Debug - 7:09:12 AM] no definitions found for name "model_name" of type 'statement' (9:23)
+2026-10-31 07:09:12.786 [info] [Debug - 7:09:12 AM] no definitions found for name "tiktoken" of type 'statement' (10:19)
+2026-10-31 07:09:12.790 [info] [Debug - 7:09:12 AM] no definitions found for name "get_encoding" of type 'statement' (10:28)
+2026-10-31 07:09:12.795 [info] [Debug - 7:09:12 AM] multiple definitions found for name "encoding" of type 'statement' (16:16):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:12.799 [info] [Debug - 7:09:12 AM] no definitions found for name "encode" of type 'statement' (16:25)
+2026-10-31 07:09:12.816 [info] [Debug - 7:09:12 AM] multiple definitions found for name "encoding" of type 'statement' (21:19):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:12.823 [info] [Debug - 7:09:12 AM] no definitions found for name "decode" of type 'statement' (21:28)
+2026-10-31 07:09:12.831 [info] [Debug - 7:09:12 AM] multiple definitions found for name "encoding" of type 'statement' (27:29):
+ <Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.get_encoding("cl100k_base")'>
+<Name full_name='W4_package.demo.Week 4-1 Counting Tokens.ipynb.run_query.encoding', description='encoding = tiktoken.encoding_for_model(MODEL_ID)'>
+2026-10-31 07:09:12.838 [info] [Debug - 7:09:12 AM] no definitions found for name "decode_bytes" of type 'statement' (27:38)
+2026-10-31 07:09:12.846 [info] [Debug - 7:09:12 AM] no definitions found for name "num_tokens_from_messages" of type 'statement' (37:19)
+2026-10-31 07:09:12.853 [info] [Debug - 7:09:12 AM] no definitions found for name "MODEL_ID" of type 'statement' (38:48)
+2026-10-31 07:10:23.715 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:10:23.719 [info] [Debug - 7:10:23 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:10:23.726 [info] [Debug - 7:10:23 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:10:23.734 [info] [Debug - 7:10:23 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:10:23.865 [info] [Debug - 7:10:23 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:10:23.865 [info] [Debug - 7:10:23 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:10:24.147 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-19:21
+2026-10-31 07:10:24.152 [info] [Debug - 7:10:24 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:10:24.156 [info] [Debug - 7:10:24 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:10:24.164 [info] [Debug - 7:10:24 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:10:24.189 [info] [Debug - 7:10:24 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:10:24.190 [info] [Debug - 7:10:24 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:14:58.534 [info] semantic_tokens_full vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 
+2026-10-31 07:14:58.539 [info] [Debug - 7:14:58 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:14:58.546 [info] [Debug - 7:14:58 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:14:58.556 [info] [Debug - 7:14:58 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:14:58.710 [info] [Debug - 7:14:58 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:14:58.712 [info] [Debug - 7:14:58 AM] no definitions found for name "encode" of type 'statement' (15:39)
+2026-10-31 07:14:58.933 [info] semantic_tokens_range vscode-notebook-cell://vocproxy-2-30.us-west-2.vocareum.com/voc/work/W4_package/demo/Week%204-1%20Counting%20Tokens.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D 0:0-19:21
+2026-10-31 07:14:58.937 [info] [Debug - 7:14:58 AM] no definitions found for name "tiktoken" of type 'statement' (5:15)
+2026-10-31 07:14:58.942 [info] [Debug - 7:14:58 AM] no definitions found for name "encoding_for_model" of type 'statement' (5:24)
+2026-10-31 07:14:58.950 [info] [Debug - 7:14:58 AM] no definitions found for name "MODEL_ID" of type 'statement' (5:43)
+2026-10-31 07:14:58.972 [info] [Debug - 7:14:58 AM] no definitions found for name "items" of type 'statement' (14:34)
+2026-10-31 07:14:58.972 [info] [Debug - 7:14:58 AM] no definitions found for name "encode" of type 'statement' (15:39)
